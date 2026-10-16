@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Prompt Medic: Discord Bot That Fixes AI Prompts, Roasts Repos & Posts Game Patch Notes</title>
+<meta name="description" content="Prompt Medic is a free Discord bot for vibe coders and gamers: /fix rewrites broken AI prompts, /roast reviews your GitHub repo for security issues and bugs, and /patch summarizes Valorant, LoL, Apex, Marvel Rivals and Fortnite patch notes.">
+<link rel="canonical" href="https://USERNAME.github.io/prompt-medic/">
+<meta name="theme-color" content="#0b0d12">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Prompt Medic">
+<meta property="og:title" content="Prompt Medic: fix broken AI prompts, roast your repo, get patch notes">
+<meta property="og:description" content="A Discord bot for vibe coders and gamers. 3 free prompt fixes and 1 repo roast a day, plus game patch-note digests.">
+<meta property="og:url" content="https://USERNAME.github.io/prompt-medic/">
+<meta property="og:image" content="https://USERNAME.github.io/prompt-medic/assets/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Prompt Medic: fix broken AI prompts, roast your repo, get patch notes">
+<meta name="twitter:description" content="A Discord bot for vibe coders and gamers. Free to try.">
+<meta name="twitter:image" content="https://USERNAME.github.io/prompt-medic/assets/og.png">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🩺</text></svg>">
+<link rel="stylesheet" href="assets/style.css">
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Prompt Medic","applicationCategory":"DeveloperApplication","operatingSystem":"Discord","url":"https://USERNAME.github.io/prompt-medic/","image":"https://USERNAME.github.io/prompt-medic/assets/og.png","description":"Discord bot that fixes broken AI prompts, roasts GitHub repos for security issues and bugs, and posts game patch-note summaries.","offers":[{"@type":"Offer","name":"Free","price":"0","priceCurrency":"USD"},{"@type":"Offer","name":"Premium","price":"5.00","priceCurrency":"USD","url":"https://ko-fi.com/davidmccoy","priceSpecification":{"@type":"UnitPriceSpecification","price":"5.00","priceCurrency":"USD","billingDuration":"P1M"}}],"sameAs":["https://discord.gg/bWZcuZx4AF"]},{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is Prompt Medic?","acceptedAnswer":{"@type":"Answer","text":"A Discord bot for vibe coders and gamers. /fix diagnoses and rewrites AI prompts that are not working, /roast reviews a public GitHub repo or pasted code for security issues and bugs, and /patch summarizes the latest official patch notes for popular games."}},{"@type":"Question","name":"Is it free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Free users get 3 prompt fixes and 1 repo roast per day, plus public patch-note summaries. Premium is $5/month on Ko-fi for unlimited fixes and roasts, full patch breakdowns, and /mybuild DM alerts."}},{"@type":"Question","name":"How do I add it?","acceptedAnswer":{"@type":"Answer","text":"Join the Prompt Medic Discord server and use the slash commands there. Type /help to see everything it can do."}},{"@type":"Question","name":"Which games does the patch digest cover?","acceptedAnswer":{"@type":"Answer","text":"Valorant, League of Legends, Apex Legends, Marvel Rivals and Fortnite. Summaries come from official patch notes and developer posts and link back to the source."}},{"@type":"Question","name":"Does /roast store or train on my code?","acceptedAnswer":{"@type":"Answer","text":"Prompt Medic only reads public repos (README, file tree and up to about 15 key files) or code you paste, sends it to an AI model to generate the review, and does not store your code."}},{"@type":"Question","name":"Which AI tools does /fix work for?","acceptedAnswer":{"@type":"Answer","text":"Any of them: Cursor, Claude, ChatGPT, Grok, Lovable, Bolt, v0, Copilot, agents and plain chatbots. It fixes the prompt, not the tool."}},{"@type":"Question","name":"How do I cancel Premium?","acceptedAnswer":{"@type":"Answer","text":"Cancel your membership on Ko-fi anytime. The Premium role is removed when the membership ends."}}]}]</script>
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <a class="logo" href="./">🩺 Prompt<span>Medic</span></a>
+  <nav><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a><a href="patches/">Patch notes</a></nav>
+  <a class="btn btn-p btn-s" href="https://discord.gg/bWZcuZx4AF" rel="noopener">Join Discord</a>
+</div></header>
+
+<main>
+<section class="hero"><div class="wrap">
+  <span class="tag">// discord bot for builders &amp; gamers</span>
+  <h1>Fix broken AI prompts.<br><span class="grad">Roast your repo. Read the patch.</span></h1>
+  <p class="lead">Prompt Medic is a Discord bot that tells you <em>why</em> your prompt isn't working and rewrites it, reviews your vibe-coded GitHub repo for security holes and bugs, and posts short patch-note digests for the games you play.</p>
+  <div class="cta"><a class="btn btn-p" href="https://discord.gg/bWZcuZx4AF" rel="noopener">Join the Discord, it's free</a><a class="btn btn-g" href="#features">See examples</a></div>
+  <div class="cmds"><span class="cmd">/fix</span><span class="cmd">/roast</span><span class="cmd">/patch</span><span class="cmd">/mybuild</span></div>
+</div></section>
+
+<section id="features"><div class="wrap">
+  <h2>What it does</h2>
+  <p class="sub">Four slash commands. The /roast and /patch outputs below are real, and the /fix one is an illustrative example.</p>
+  <div class="grid g2">
+
+  <article class="card">
+    <h3><code>/fix</code>: prompt doctor</h3>
+    <p>Paste a prompt that isn't working (and optionally what went wrong). You get a diagnosis, a rewrite, and tips.</p>
+    <div class="discord"><span class="ex">Example (illustrative)</span>
+      <pre>/fix prompt: make the login work</pre>
+      <div class="bot">Prompt Medic<span class="badge">BOT</span></div>
+      <div class="embed g"><b>🩺 Prompt Medic</b>
+        <span class="k">Diagnosis</span>The prompt names no stack, no auth method, and no definition of "working", so the model guesses and rewrites unrelated code.
+        <span class="k">Rewritten prompt</span><pre>Add email/password login to my Next.js app using Supabase Auth. Keep the existing UI and routes. Show validation errors inline under each field. Done = I can sign up, log in, log out, and /dashboard redirects to /login when signed out. Don't modify files outside /app/(auth) and /lib/supabase.</pre>
+        <span class="k">Tips</span><ul><li>State what "done" looks like</li><li>Name your stack and the files it may touch</li><li>One feature per prompt</li></ul>
+      </div></div>
+  </article>
+
+  <article class="card">
+    <h3><code>/roast</code>: repo roast</h3>
+    <p>Drop a public GitHub URL or paste code. You get a score out of 10, security issues, bugs, quick wins, and a verdict.</p>
+    <div class="discord"><span class="ex">Real output · expressjs/cors</span>
+      <pre>/roast repo: https://github.com/expressjs/cors</pre>
+      <div class="bot">Prompt Medic<span class="badge">BOT</span></div>
+      <div class="embed y"><b>🔥 Repo Roast: expressjs/cors</b><br>
+        <b>7/10</b>: Solid CORS grandpa, but the origin logic took a wrong turn at Albuquerque
+        <span class="k">🔒 Security</span><ul><li>credentials:true + origin:'*' allowed without warning (lib/index.js)</li></ul>
+        <span class="k">🐛 Bugs</span><ul><li>When !corsOptions.origin, middleware skips cors() entirely and just calls next() (lib/index.js)</li></ul>
+        <span class="k">⚡ Quick wins</span><ul><li>Add check to prevent credentials + wildcard origin combo</li><li>Handle maxAge=0 explicitly in configureMaxAge</li></ul>
+      </div></div>
+  </article>
+
+  <article class="card">
+    <h3><code>/patch</code>: patch-note digest</h3>
+    <p>Official patch notes for Valorant, League of Legends, Apex Legends, Marvel Rivals and Fortnite, summarized and posted to <code>#patch-notes</code> as they drop.</p>
+    <div class="discord"><span class="ex">Real output · Valorant 13.08</span>
+      <pre>/patch game: Valorant</pre>
+      <div class="bot">Prompt Medic<span class="badge">BOT</span></div>
+      <div class="embed"><b>🎮 Valorant: Map Rating, Corrode Updates &amp; Map Pool Swap</b>
+        <ul><li>Map Rating system added for Competitive/Premier</li><li>Corrode changes to defender paths, mid, and plant</li><li>Map pool: Bind &amp; Corrode in, Ascent &amp; Split out</li><li>Performance Score adjustments for damage/kills/deaths</li><li>Vanguard ban numbers shared for Act 5</li></ul>
+        <a href="patches/valorant.html">Read the full digest →</a>
+      </div></div>
+  </article>
+
+  <article class="card">
+    <h3><code>/mybuild</code>: patch alerts for your mains <small style="color:var(--warn)">Premium</small></h3>
+    <p>Tell it your game and your mains (agents, champions, legends, heroes, weapons). It DMs you when a patch touches them.</p>
+    <div class="discord"><span class="ex">Example (illustrative)</span>
+      <pre>/mybuild game: League of Legends items: K'Sante, Kennen</pre>
+      <div class="bot">Prompt Medic<span class="badge">BOT</span></div>
+      <div class="embed y"><b>🎯 League of Legends patch touches your build</b><br>
+        <b>Patch 26.20</b> mentions: K'Sante, Kennen
+        <ul><li><b>K'Sante</b>: W mana cost up, damage reduction reduced</li><li><b>Kennen</b>: E bonus attack speed increased</li></ul>
+      </div></div>
+  </article>
+  </div>
+</div></section>
+
+<section id="pricing"><div class="wrap">
+  <h2>Pricing</h2><p class="sub">Start free. Upgrade if it saves you time.</p>
+  <div class="grid g2">
+    <div class="card price"><h3>Free</h3><div class="amt">$0</div>
+      <ul><li>3 prompt fixes a day</li><li>1 repo roast a day</li><li>Public patch-note summaries in #patch-notes</li><li><code>/patch</code> for any supported game</li></ul>
+      <a class="btn btn-g" href="https://discord.gg/bWZcuZx4AF" rel="noopener">Join Discord</a></div>
+    <div class="card price hot"><h3>Premium</h3><div class="amt">$5<small>/month</small></div>
+      <ul><li>Unlimited prompt fixes</li><li>Unlimited repo roasts</li><li>Full patch breakdowns: buffs, nerfs, meta impact, per-character</li><li><code>/mybuild</code> DM alerts for your mains</li><li>Supports an indie builder</li></ul>
+      <a class="btn btn-p" href="https://ko-fi.com/davidmccoy" rel="noopener">Get Premium on Ko-fi</a></div>
+  </div>
+  <p class="sub" style="margin-top:14px;font-size:.9rem">Premium is a Ko-fi membership linked to the Premium role in the Discord server. Cancel anytime on Ko-fi.</p>
+</div></section>
+
+<section id="faq"><div class="wrap">
+  <h2>FAQ</h2>
+  <details open><summary>What is Prompt Medic?</summary><p>A Discord bot for vibe coders and gamers. /fix diagnoses and rewrites AI prompts that are not working, /roast reviews a public GitHub repo or pasted code for security issues and bugs, and /patch summarizes the latest official patch notes for popular games.</p></details>
+  <details><summary>Is it free?</summary><p>Yes. Free users get 3 prompt fixes and 1 repo roast per day, plus public patch-note summaries. Premium is $5/month on Ko-fi for unlimited fixes and roasts, full patch breakdowns, and /mybuild DM alerts.</p></details>
+  <details><summary>How do I add it?</summary><p>Join the Prompt Medic Discord server and use the slash commands there. Type /help to see everything it can do.</p></details>
+  <details><summary>Which games does the patch digest cover?</summary><p>Valorant, League of Legends, Apex Legends, Marvel Rivals and Fortnite. Summaries come from official patch notes and developer posts and link back to the source.</p></details>
+  <details><summary>Does /roast store or train on my code?</summary><p>Prompt Medic only reads public repos (README, file tree and up to about 15 key files) or code you paste, sends it to an AI model to generate the review, and does not store your code.</p></details>
+  <details><summary>Which AI tools does /fix work for?</summary><p>Any of them: Cursor, Claude, ChatGPT, Grok, Lovable, Bolt, v0, Copilot, agents and plain chatbots. It fixes the prompt, not the tool.</p></details>
+  <details><summary>How do I cancel Premium?</summary><p>Cancel your membership on Ko-fi anytime. The Premium role is removed when the membership ends.</p></details>
+</div></section>
+
+<section class="news"><div class="wrap">
+  <h2>Newsletter: coming soon</h2>
+  <p class="sub">A weekly digest of prompt fixes and patch notes is on the way. Until then, the Discord has everything.</p>
+  <form onsubmit="return false" aria-label="Newsletter signup (coming soon)"><input type="email" placeholder="you@example.com" disabled aria-disabled="true"><button class="btn btn-g" disabled>Coming soon</button></form>
+  <a class="btn btn-p" href="https://discord.gg/bWZcuZx4AF" rel="noopener">Join the Discord instead</a>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <span>© 2026 Prompt Medic · Not affiliated with Riot Games, Epic Games, EA/Respawn, or NetEase.</span>
+  <span class="games">Patch notes: <a href="patches/valorant.html">Valorant</a> · <a href="patches/league-of-legends.html">League of Legends</a> · <a href="patches/apex-legends.html">Apex Legends</a> · <a href="patches/marvel-rivals.html">Marvel Rivals</a> · <a href="patches/fortnite.html">Fortnite</a></span>
+</div></footer>
+</body>
+</html>
