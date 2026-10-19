@@ -77,4 +77,37 @@ ${[
 <li><strong>Ask for the minimal diff.</strong> Prevents surprise rewrites.</li>
 <li><strong>Get a security pass before shipping.</strong> Ask specifically about secrets, auth and input validation, or run <code>/roast</code> on your repo.</li>
 </ol>${cta}` },
+{ slug: 'vibe-coding-security-checklist', title: 'Vibe Coding Security Checklist: 12 Checks Before You Ship an AI-Built App',
+  desc: 'A practical security checklist for apps built with Cursor, Lovable, Bolt, v0 or Claude: leaked keys, missing auth checks, open database rules, unvalidated input and more.',
+  faq: [['Is AI-generated code secure?', 'Not by default. AI coding tools optimize for "it works," so they often skip authorization checks, hardcode secrets, or leave database rules open. Review those areas yourself or ask the AI for a dedicated security pass before you ship.'],
+        ['How do I check my vibe-coded app for security issues?', 'Search the repo for API keys, confirm every server route checks who the user is and whether they own the data, lock down database rules, validate input on the server, and run a dependency audit. A quick AI review such as Prompt Medic /roast can flag the obvious problems, but verify each finding.'],
+        ['Can I ask Cursor or Claude to do a security review?', 'Yes. Ask for a review only, not edits: "List security issues in these files, ranked by severity, with the line and a one-line fix. Do not change any code." Then fix them one at a time.']],
+  body: `<p>AI tools make it easy to ship an app in a weekend. They also make it easy to ship your API keys to the whole internet. Run through these 12 checks before you share the link.</p>
+<h2>Secrets</h2><ol>
+<li><strong>No keys in the frontend.</strong> Anything in client code (React, Next.js client components, Vite <code>VITE_</code> vars) is public. Move paid API calls behind a server route.</li>
+<li><strong>No keys in git history.</strong> Search the repo for <code>sk-</code>, <code>api_key</code>, <code>secret</code> and <code>.env</code>. If a key was ever committed, rotate it; deleting the file is not enough.</li>
+<li><strong><code>.env</code> is in <code>.gitignore</code>.</strong> Check before your first push, not after.</li>
+</ol>
+<h2>Auth and data access</h2><ol start="4">
+<li><strong>Every server route checks the user.</strong> Not just "is someone logged in" but "does this user own this record."</li>
+<li><strong>Database rules are not wide open.</strong> Supabase row-level security on, Firebase rules not set to <code>allow read, write: if true</code>.</li>
+<li><strong>Admin pages are protected on the server.</strong> Hiding a button in the UI is not access control.</li>
+<li><strong>IDs in URLs are not trusted.</strong> Changing <code>/invoice/41</code> to <code>/invoice/42</code> should not show someone else's invoice.</li>
+</ol>
+<h2>Input and output</h2><ol start="8">
+<li><strong>Validate input on the server.</strong> Client-side validation is a UX feature, not a security one.</li>
+<li><strong>No raw SQL built from strings.</strong> Use parameterized queries or your ORM.</li>
+<li><strong>No unsanitized HTML.</strong> Search for <code>dangerouslySetInnerHTML</code> and <code>innerHTML</code>.</li>
+</ol>
+<h2>Shipping</h2><ol start="11">
+<li><strong>Rate-limit anything that costs money.</strong> An AI endpoint with no limit is an open tab on your card.</li>
+<li><strong>Audit dependencies.</strong> Run <code>npm audit</code> (or your package manager's equivalent) and check that every package the AI added actually exists and is the one you meant.</li>
+</ol>
+<h2>A prompt for an AI security pass</h2><p>Paste this into Cursor, Claude or ChatGPT with your server files attached:</p>
+<pre><code>Review these files for security issues only. Do not edit code.
+Check: exposed secrets, missing auth or ownership checks, open database rules,
+unvalidated input, SQL or HTML injection, and unmetered paid API calls.
+Output: a list ranked by severity, each with file, line, why it matters,
+and a one-line fix. If you are unsure, say so instead of guessing.</code></pre>
+<div class="card" style="margin:2rem 0"><h2>Get a quick roast first</h2><p>Run <code>/roast</code> with a public GitHub URL in the free Prompt Medic Discord. It reads your README, file tree and key files and returns a score out of 10, the top security issues, bugs and quick wins. AI reviews can miss things or be wrong, so treat it as a first pass, not a pentest. 1 free roast a day.</p><p><a class="btn btn-p" href="${D}" rel="noopener">Join the Discord</a></p></div>` },
 ];
