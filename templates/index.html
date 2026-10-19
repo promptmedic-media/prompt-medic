@@ -25,7 +25,7 @@
 <body>
 <header class="nav"><div class="wrap">
   <a class="logo" href="./">🩺 Prompt<span>Medic</span></a>
-  <nav><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a><a href="guides/">Guides</a><a href="patches/">Patch notes</a></nav>
+  <nav><a href="#before-after">Before/after</a><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a><a href="guides/">Guides</a><a href="patches/">Patch notes</a></nav>
   <a class="btn btn-p btn-s" href="{{DISCORD}}" rel="noopener">Join Discord</a>
 </div></header>
 
@@ -36,6 +36,23 @@
   <p class="lead">Prompt Medic is a Discord bot that tells you <em>why</em> your prompt isn't working and rewrites it, reviews your vibe-coded GitHub repo for security holes and bugs, and posts short patch-note digests for the games you play.</p>
   <div class="cta"><a class="btn btn-p" href="{{DISCORD}}" rel="noopener">Join the Discord, it's free</a><a class="btn btn-g" href="#features">See examples</a></div>
   <div class="cmds"><span class="cmd">/fix</span><span class="cmd">/roast</span><span class="cmd">/patch</span><span class="cmd">/mybuild</span></div>
+</div></section>
+
+<section id="before-after"><div class="wrap">
+  <h2>Before and after</h2>
+  <p class="sub">Real /fix output, unedited. Brackets mark details only you know, so the rewrite never makes up your stack or your error.</p>
+  <div class="ba">
+    <div class="ba-col ba-before"><span class="k">Before</span><pre>make my app look better</pre></div>
+    <div class="ba-col ba-after"><span class="k">After /fix</span><pre>Make my app look better. [PASTE APP DESCRIPTION OR CURRENT CODE HERE]. [DESCRIBE WHAT LOOKS BAD OR WHAT YOU WANT IMPROVED]. Use [YOUR TECH STACK]. Constraints: keep existing functionality unchanged and only modify styles/layout. Done = the app has a cleaner, more modern visual appearance that matches the provided description.</pre><p class="ba-why"><b>Why it failed:</b> The prompt is extremely vague and provides zero context about the app, current design problems, tech stack, or desired improvements.</p></div>
+  </div>
+  <div class="ba">
+    <div class="ba-col ba-before"><span class="k">Before</span><pre>my login is broken fix it</pre><span class="k">What went wrong</span><p>cursor rewrote half my files and it still 401s</p></div>
+    <div class="ba-col ba-after"><span class="k">After /fix</span><pre>my login is broken fix it. It returns 401 errors. Only edit the minimal files needed. Do not rewrite unrelated code. First analyze the current login flow and [PASTE THE EXACT ERROR] plus any relevant logs. Then propose the smallest targeted fix. Done = login succeeds without 401 errors and no other files were changed.</pre><p class="ba-why"><b>Why it failed:</b> The prompt is a single vague sentence with no context, error details, or constraints, so the AI has no idea what to preserve or where to look.</p></div>
+  </div>
+  <div class="ba">
+    <div class="ba-col ba-before"><span class="k">Before</span><pre>write a tweet about my game</pre><span class="k">What went wrong</span><p>it sounds like a corporate ad</p></div>
+    <div class="ba-col ba-after"><span class="k">After /fix</span><pre>Write a tweet about my game. Make it sound like a real player sharing excitement, not a corporate ad. Use casual, fun language and keep it under 280 characters. Include one specific hook about [ONE THING PLAYERS LOVE] and end with a call to action like trying the game. Done = a natural-sounding tweet that feels personal and engaging.</pre><p class="ba-why"><b>Why it failed:</b> The prompt is extremely vague with no details on game genre, tone, audience, or desired style, so the model defaults to generic marketing language.</p></div>
+  </div>
 </div></section>
 
 <section id="features"><div class="wrap">
