@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Roast Card Generator: Share Your Repo Roast Score | Prompt Medic</title><meta name="description" content="Make a shareable image card of your Repo Roast score and post it to X."><link rel="canonical" href="https://promptmedic-media.github.io/prompt-medic/roast/card.html">
+<meta property="og:type" content="article"><meta property="og:title" content="Roast Card Generator: Share Your Repo Roast Score"><meta property="og:description" content="Make a shareable image card of your Repo Roast score and post it to X."><meta property="og:url" content="https://promptmedic-media.github.io/prompt-medic/roast/card.html"><meta property="og:image" content="https://promptmedic-media.github.io/prompt-medic/assets/og.png">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Roast Card Generator: Share Your Repo Roast Score"><meta name="twitter:description" content="Make a shareable image card of your Repo Roast score and post it to X."><meta name="twitter:image" content="https://promptmedic-media.github.io/prompt-medic/assets/og.png">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🩺</text></svg>">
+<link rel="stylesheet" href="../assets/style.css"></head>
+<body><header class="nav"><div class="wrap"><a class="logo" href="../">🩺 Prompt<span>Medic</span></a><nav><a href="../#features">Features</a><a href="./">Guides</a><a href="../patches/">Patch notes</a></nav><a class="btn btn-p btn-s" href="https://discord.com/oauth2/authorize?client_id=1560480862028439552" rel="noopener">Add to Discord</a></div></header>
+<main class="patch"><section><div class="wrap"><p class="bc"><a href="../">Home</a> › Roast Card</p><h1>Roast Card Generator</h1>
+<p>Got a <b>/roast</b> score in Discord? Turn it into an image and flex it (or own it). Everything runs in your browser and nothing is uploaded.</p>
+<div class="card"><p><label>Repo <input id="r" value="you/your-app" style="width:100%"></label></p><p><label>Score (0-10) <input id="s" type="number" min="0" max="10" value="7"></label></p><p><label>Verdict <input id="v" value="Ships fast, leaks faster." style="width:100%"></label></p><p><label>Top fix <input id="w" value="Move secrets out of NEXT_PUBLIC_ vars" style="width:100%"></label></p>
+<p><button class="btn btn-p" id="dl">Download PNG</button> <a class="btn btn-g" id="tw" target="_blank" rel="noopener">Share on X</a></p></div>
+<canvas id="c" width="1200" height="630" style="width:100%;max-width:720px;border-radius:12px"></canvas>
+<p>No score yet? <a href="https://discord.com/oauth2/authorize?client_id=1560480862028439552" rel="noopener">Add Prompt Medic</a> and run <code>/roast</code>. Or see the <a href="leaderboard.html">leaderboard</a>.</p>
+<script>
+const $=id=>document.getElementById(id),c=$('c'),x=c.getContext('2d');
+function wrap(t,X,Y,W,L){let line='';for(const w of t.split(' ')){if(x.measureText(line+w).width>W){x.fillText(line,X,Y);line='';Y+=L}line+=w+' '}x.fillText(line,X,Y)}
+function draw(){const s=Math.max(0,Math.min(10,+$('s').value||0)),col=s>=8?'#57f287':s>=5?'#fee75c':'#ed4245';
+x.fillStyle='#0b0f14';x.fillRect(0,0,1200,630);x.fillStyle=col;x.fillRect(0,0,16,630);
+x.fillStyle='#9aa4b2';x.font='32px system-ui';x.fillText('🔥 REPO ROAST',70,90);
+x.fillStyle='#fff';x.font='bold 54px system-ui';x.fillText($('r').value.slice(0,40),70,170);
+x.fillStyle=col;x.font='bold 170px system-ui';x.fillText(s+'/10',70,370);
+x.fillStyle='#e6e6e6';x.font='italic 36px system-ui';wrap('“'+$('v').value.slice(0,120)+'”',560,250,580,46);
+x.fillStyle='#00e5a0';x.font='30px system-ui';wrap('⚡ '+$('w').value.slice(0,90),70,470,1060,40);
+x.fillStyle='#9aa4b2';x.font='26px system-ui';x.fillText('🩺 Prompt Medic · /roast in Discord · promptmedic-media.github.io/prompt-medic',70,590);
+$('tw').href='https://x.com/intent/post?text='+encodeURIComponent('My repo got roasted: '+s+'/10 🔥\n"'+$('v').value+'"\n\nRoast yours free with @PromptMedicAI:')+'&url='+encodeURIComponent('https://promptmedic-media.github.io/prompt-medic/roast/card.html')}
+['r','s','v','w'].forEach(i=>$(i).oninput=draw);const q=new URLSearchParams(location.search);['r','s','v','w'].forEach(i=>{if(q.get(i))$(i).value=q.get(i)});draw();
+$('dl').onclick=()=>{const a=document.createElement('a');a.download='roast-card.png';a.href=c.toDataURL('image/png');a.click()};
+</script></div></section></main>
+<footer><div class="wrap"><span>© 2026 Prompt Medic · <a href="./">Guides</a> · <a href="../patches/">Patch notes</a> · <a href="https://discord.com/oauth2/authorize?client_id=1560480862028439552">Discord</a></span></div></footer></body></html>

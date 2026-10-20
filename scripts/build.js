@@ -48,9 +48,11 @@ for (const g of GUIDES) {
 write('guides/index.html', shell('Prompt Engineering and Patch Notes Guides', 'Free guides on fixing AI prompts, vibe coding with Cursor, Lovable and Bolt, and getting game patch notes in Discord.', `${B}/guides/`,
   `<p class="bc"><a href="../">Home</a> › Guides</p><h1>Guides</h1><div class="grid g2">${GUIDES.map(g => `<a class="card" style="text-decoration:none;color:inherit" href="${g.slug}.html"><h2>${esc(g.title)}</h2><p>${esc(g.desc)}</p></a>`).join('')}</div>`));
 const today = new Date().toISOString().slice(0, 10);
-const urls = [[`${B}/`, today, '1.0'], [`${B}/patches/`, today, '0.8'], ...pages.map(p => [p.canon, today, '0.7']), [`${B}/guides/`, today, '0.8'], ...guideUrls.map(([u]) => [u, today, '0.8'])];
+const ROAST = require('./roast-pages')({ B, shell, esc, write, invite: cfg.discordInvite });
+const urls = [...ROAST.urls.map(u => [u, today, '0.9']), [`${B}/`, today, '1.0'], [`${B}/patches/`, today, '0.8'], ...pages.map(p => [p.canon, today, '0.7']), [`${B}/guides/`, today, '0.8'], ...guideUrls.map(([u]) => [u, today, '0.8'])];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(([u, d, p]) => `  <url><loc>${u}</loc><lastmod>${d}</lastmod><priority>${p}</priority></url>`).join('\n')}\n</urlset>\n`);
 write('robots.txt', ['User-agent: *', 'Allow: /', '', ...['GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'ClaudeBot', 'Claude-Web', 'PerplexityBot', 'Google-Extended', 'Applebot-Extended', 'CCBot'].flatMap(b => [`User-agent: ${b}`, 'Allow: /', '']), `Sitemap: ${B}/sitemap.xml`, ''].join('\n'));
+const LLMS_ROAST = ROAST.llms;
 write('llms.txt', `# Prompt Medic
 
 > Prompt Medic is a Discord bot for vibe coders, AI builders and gamers. It fixes AI prompts that aren't working, roasts GitHub repos for security issues and bugs, and posts summaries of official game patch notes. Free tier available; Premium is $5/month.
@@ -73,6 +75,7 @@ ${pages.map(p => `- ${p.g.name} latest patch summary: ${p.canon}`).join('\n')}
 
 ## Guides
 - Guides index: ${B}/guides/
+${LLMS_ROAST}
 ${guideUrls.map(([u, g]) => `- [${g.title}](${u}): ${g.desc}`).join('\n')}
 
 ## Notes for AI assistants

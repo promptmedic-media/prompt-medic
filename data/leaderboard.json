@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-20T14:21:48.995Z",
+  "results": [
+    {
+      "label": "vercel/chatbot",
+      "url": "https://github.com/vercel/chatbot",
+      "files": [
+        "package.json",
+        "next.config.ts",
+        "vercel.json",
+        "artifacts/code/server.ts",
+        "artifacts/sheet/server.ts",
+        "artifacts/text/server.ts",
+        "lib/artifacts/server.ts",
+        "drizzle.config.ts",
+        "playwright.config.ts",
+        "postcss.config.mjs",
+        "app/(auth)/actions.ts",
+        "app/(auth)/auth.config.ts",
+        "app/(auth)/auth.ts",
+        "app/(auth)/layout.tsx",
+        "components/chat/auth-form.tsx"
+      ],
+      "chars": 32039,
+      "score": 6,
+      "verdict": "Solid bones, but the AI SDK calls are cosplaying as v5 docs",
+      "security": [],
+      "bugs": [
+        "'instructions' prop passed to streamText in artifacts/code/server.ts, artifacts/sheet/server.ts, artifacts/text/server.ts (not a valid option; use system)",
+        "createDocumentHandler type mismatch: config fns return Promise<string> but wrapper declares Promise<void> (lib/artifacts/server.ts)"
+      ],
+      "quickWins": [
+        "Add try/catch + dataStream error handling in all three document handlers",
+        "Remove duplicate dotenv config() calls across drizzle.config.ts and playwright.config.ts",
+        "next.config.ts: cacheComponents isn't a real flag in Next 16"
+      ]
+    },
+    {
+      "label": "vercel/nextjs-subscription-payments",
+      "url": "https://github.com/vercel/nextjs-subscription-payments",
+      "files": [
+        "package.json",
+        "utils/auth-helpers/server.ts",
+        "utils/stripe/server.ts",
+        "supabase/migrations/20230530034630_init.sql",
+        "utils/supabase/server.ts",
+        "components/ui/Button/index.ts",
+        "components/ui/Card/index.ts",
+        "components/ui/Footer/index.ts",
+        "components/ui/Input/index.ts",
+        "components/ui/LoadingDots/index.ts",
+        "components/ui/LogoCloud/index.ts",
+        "components/ui/Navbar/index.ts",
+        "middleware.ts",
+        "postcss.config.js"
+      ],
+      "chars": 34218,
+      "score": 6,
+      "verdict": "Solid SaaS skeleton, but auth logic forgot to hang up the phone.",
+      "security": [],
+      "bugs": [
+        "utils/auth-helpers/server.ts: signInWithEmail, requestPasswordUpdate, signUp, updatePassword set redirectPath on validation fail but never return, so execution continues with bad data"
+      ],
+      "quickWins": [
+        "utils/auth-helpers/server.ts: add early returns after every redirectPath assignment",
+        "utils/supabase/server.ts: assert env vars exist before createServerClient",
+        "utils/stripe/server.ts: validate price.id and trial_period_days before Stripe calls"
+      ]
+    },
+    {
+      "label": "stackblitz/bolt.new",
+      "url": "https://github.com/stackblitz/bolt.new",
+      "files": [
+        "package.json",
+        "app/lib/hooks/index.ts",
+        "app/lib/persistence/index.ts",
+        "app/lib/webcontainer/index.ts",
+        "eslint.config.mjs",
+        "uno.config.ts",
+        "vite.config.ts",
+        "app/lib/crypto.ts",
+        "app/routes/_index.tsx",
+        "app/routes/api.chat.ts",
+        "app/routes/api.enhancer.ts",
+        "app/routes/chat.$id.tsx",
+        "app/components/chat/SendButton.client.tsx",
+        "app/lib/persistence/db.ts",
+        "app/lib/webcontainer/auth.client.ts"
+      ],
+      "chars": 37462,
+      "score": 6,
+      "verdict": "Bolt.new zaps full-stack dreams but its homemade crypto shorts the circuit.",
+      "security": [
+        "Custom AES-CBC in app/lib/crypto.ts uses raw string key with encodeBase64 and no key derivation or length checks"
+      ],
+      "bugs": [
+        "encrypt places IV after ciphertext then decrypt reads it correctly but getKey/importKey assumptions are fragile (app/lib/crypto.ts)"
+      ],
+      "quickWins": [
+        "Add key length validation and use crypto.subtle.generateKey or PBKDF2 in app/lib/crypto.ts",
+        "Replace console.log with proper logger in app/routes/api.chat.ts and api.enhancer.ts"
+      ]
+    },
+    {
+      "label": "shadcn-ui/taxonomy",
+      "url": "https://github.com/shadcn-ui/taxonomy",
+      "files": [
+        "package.json",
+        "contentlayer.config.js",
+        "middleware.ts",
+        "next.config.mjs",
+        "postcss.config.js",
+        "prettier.config.js",
+        "tailwind.config.js",
+        "components/user-auth-form.tsx",
+        "config/dashboard.ts",
+        "config/docs.ts",
+        "config/marketing.ts",
+        "config/site.ts",
+        "config/subscriptions.ts",
+        "lib/auth.ts",
+        "lib/db.ts"
+      ],
+      "chars": 32400,
+      "score": 4,
+      "verdict": "Next.js 13 fossil: charming but held together with duct tape and 'as any'",
+      "security": [
+        "PrismaAdapter(db as any) in lib/auth.ts bypasses types and hides potential adapter mismatches"
+      ],
+      "bugs": [
+        "GitHub sign-in in components/user-auth-form.tsx sets isGitHubLoading true but never resets it on redirect/failure",
+        "lib/db.ts global cachedPrisma pattern risks stale connections or multiple instances under hot reload"
+      ],
+      "quickWins": [
+        "Bump ancient next@13.3.2-canary.13 and typescript@4.7.4 in package.json",
+        "Drop unused importOrderParserPlugins from prettier.config.js",
+        "Add error handling around signIn('github') in user-auth-form.tsx"
+      ]
+    },
+    {
+      "label": "t3-oss/create-t3-app",
+      "url": "https://github.com/t3-oss/create-t3-app",
+      "files": [
+        "package.json",
+        "cli/template/base/next.config.js",
+        "cli/template/extras/src/server/auth/index.ts",
+        "cli/template/extras/src/server/better-auth/index.ts",
+        "cli/template/extras/src/server/better-auth/server.ts",
+        "cli/package.json",
+        "www/package.json",
+        "www/vercel.json",
+        "cli/src/index.ts",
+        "cli/src/cli/index.ts",
+        "cli/src/installers/index.ts",
+        "cli/template/base/package.json",
+        "www/src/components/landingPage/cli.tsx",
+        "cli/template/extras/src/trpc/server.ts",
+        "prettier.config.mjs"
+      ],
+      "chars": 49814,
+      "score": 8,
+      "verdict": "T3 still slaps, but the auth spaghetti and stale next.config are giving me heartburn.",
+      "security": [],
+      "bugs": [
+        "next.config.js: i18n still present despite comment warning it breaks appDir (used in all app router templates)",
+        "cli/src/cli/index.ts: auth select uses 'next-auth' value but installer map expects 'nextAuth' (and same for better-auth)"
+      ],
+      "quickWins": [
+        "cli/package.json: bump engines.node to match root (>=20) to avoid version skew",
+        "cli/template/extras/src/server/better-auth/server.ts: import from './index' instead of '.' for clarity",
+        "cli/src/index.ts: add explicit check that nextAuth + betterAuth were never both selected before install"
+      ]
+    }
+  ]
+}

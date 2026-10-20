@@ -24,6 +24,11 @@
 
 ## Guides
 - Guides index: https://promptmedic-media.github.io/prompt-medic/guides/
+
+## Repo Roast
+- [Vibe Code Roast Leaderboard](https://promptmedic-media.github.io/prompt-medic/roast/leaderboard.html): Prompt Medic’s Repo Roast reviewed popular open-source starters (Vercel AI Chatbot, Next.js Subscription Payments, Bolt.new, Taxonomy, create-t3-app) for security issues, bugs and quick wins.
+- [Roast Card Generator](https://promptmedic-media.github.io/prompt-medic/roast/card.html): turn a /roast score into a shareable image.
+
 - [Why Is ChatGPT (or Cursor, Claude, Grok) Ignoring My Prompt? 7 Causes and Fixes](https://promptmedic-media.github.io/prompt-medic/guides/why-is-chatgpt-ignoring-my-prompt.html): The 7 most common reasons an AI ignores parts of your prompt, with a fix for each: buried instructions, conflicting rules, vague goals, overloaded tasks and more.
 - [The Prompt Debugging Checklist: 10 Checks Before You Rewrite Anything](https://promptmedic-media.github.io/prompt-medic/guides/prompt-debugging-checklist.html): A practical 10-point checklist for debugging AI prompts that are not working, for ChatGPT, Claude, Cursor, Lovable, Bolt, v0 and agents.
 - [Free Prompt Fix Examples: 8 Broken Prompts, Diagnosed and Rewritten](https://promptmedic-media.github.io/prompt-medic/guides/prompt-fix-examples.html): A gallery of real-world style broken AI prompts for coding, writing and image tools, with the diagnosis and a rewritten prompt you can steal.
