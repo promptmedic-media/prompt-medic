@@ -6,7 +6,7 @@ const B = cfg.baseUrl;
 const FAQ = [
   ['What is Prompt Medic?', 'A Discord bot for vibe coders and gamers. /fix diagnoses and rewrites AI prompts that are not working, /roast reviews a public GitHub repo or pasted code for security issues and bugs, and /patch summarizes the latest official patch notes for popular games.'],
   ['Is it free?', 'Yes. Free users get 3 prompt fixes and 1 repo roast per day, plus public patch-note summaries. Premium is $5/month on Ko-fi for unlimited fixes and roasts, full patch breakdowns, and /mybuild DM alerts.'],
-  ['How do I add it?', 'Join the Prompt Medic Discord server and use the slash commands there. Type /help to see everything it can do.'],
+  ['How do I add it?', 'Click Add to Discord and pick a server, or add it to your own account so it works in every server and DM. Type /help to see everything it can do.'],
   ['Which games does the patch digest cover?', 'Valorant, League of Legends, Apex Legends, Marvel Rivals and Fortnite. Summaries come from official patch notes and developer posts and link back to the source.'],
   ['Does /roast store or train on my code?', 'Prompt Medic only reads public repos (README, file tree and up to about 15 key files) or code you paste, sends it to an AI model to generate the review, and does not store your code.'],
   ['Which AI tools does /fix work for?', 'Any of them: Cursor, Claude, ChatGPT, Grok, Lovable, Bolt, v0, Copilot, agents and plain chatbots. It fixes the prompt, not the tool.'],
@@ -33,7 +33,7 @@ const shell = (title, desc, canon, inner, ld) => `<!doctype html>
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(desc)}"><meta name="twitter:image" content="${B}/assets/og.png">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🩺</text></svg>">
 <link rel="stylesheet" href="../assets/style.css">${ld ? `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>` : ''}</head>
-<body><header class="nav"><div class="wrap"><a class="logo" href="../">🩺 Prompt<span>Medic</span></a><nav><a href="../#features">Features</a><a href="./">Guides</a><a href="../patches/">Patch notes</a></nav><a class="btn btn-p btn-s" href="${cfg.discordInvite}" rel="noopener">Join Discord</a></div></header>
+<body><header class="nav"><div class="wrap"><a class="logo" href="../">🩺 Prompt<span>Medic</span></a><nav><a href="../#features">Features</a><a href="./">Guides</a><a href="../patches/">Patch notes</a></nav><a class="btn btn-p btn-s" href="${cfg.discordInvite}" rel="noopener">Add to Discord</a></div></header>
 <main class="patch"><section><div class="wrap">${inner}</div></section></main>
 <footer><div class="wrap"><span>© 2026 Prompt Medic · <a href="./">Guides</a> · <a href="../patches/">Patch notes</a> · <a href="${cfg.discordInvite}">Discord</a></span></div></footer></body></html>`;
 const guideUrls = [];
@@ -66,7 +66,7 @@ write('llms.txt', `# Prompt Medic
 - Premium ($5/month via Ko-fi: ${cfg.kofiUrl}): unlimited fixes and roasts, full patch breakdowns (buffs, nerfs, meta impact, per-character), /mybuild alerts.
 
 ## Links
-- Join the Discord: ${cfg.discordInvite}
+- Add to Discord: ${cfg.discordInvite}
 - Website: ${B}/
 - Patch note summaries: ${B}/patches/
 ${pages.map(p => `- ${p.g.name} latest patch summary: ${p.canon}`).join('\n')}

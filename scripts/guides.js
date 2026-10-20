@@ -1,6 +1,6 @@
 // Evergreen guide pages. Each entry: slug, title, desc, body (HTML), faq [[q,a]].
-const D = 'https://discord.gg/bWZcuZx4AF';
-const cta = `<div class="card" style="margin:2rem 0"><h2>Let the bot do it</h2><p>Paste your prompt into <code>/fix</code> in the free Prompt Medic Discord and get a diagnosis plus a rewrite in seconds. 3 free fixes a day.</p><p><a class="btn btn-p" href="${D}" rel="noopener">Join the Discord</a></p></div>`;
+const D = 'https://discord.com/oauth2/authorize?client_id=1560480862028439552';
+const cta = `<div class="card" style="margin:2rem 0"><h2>Let the bot do it</h2><p>Paste your prompt into <code>/fix</code> in the free Prompt Medic Discord and get a diagnosis plus a rewrite in seconds. 3 free fixes a day.</p><p><a class="btn btn-p" href="${D}" rel="noopener">Add to Discord</a></p></div>`;
 module.exports = [
 { slug: 'why-is-chatgpt-ignoring-my-prompt', title: 'Why Is ChatGPT (or Cursor, Claude, Grok) Ignoring My Prompt? 7 Causes and Fixes',
   desc: 'The 7 most common reasons an AI ignores parts of your prompt, with a fix for each: buried instructions, conflicting rules, vague goals, overloaded tasks and more.',
@@ -61,7 +61,7 @@ ${[
 <h2>What to look for in a patch-notes bot</h2><ul><li><strong>Official sources</strong> with a link back, so you can verify.</li><li><strong>Short summaries</strong>, not a raw copy-paste of 4,000 words.</li><li><strong>Auto-posting</strong> to a channel when a new patch drops.</li><li><strong>Per-character alerts</strong> so you only get pinged when it matters.</li></ul>
 <h2>How Prompt Medic does it</h2><p>Prompt Medic checks official sources every 30 minutes and posts a TL;DR to <code>#patch-notes</code>: headline changes, buffs, nerfs, and a meta take. Run <code>/patch game:valorant</code> anytime. Premium members can set <code>/mybuild</code> to get a DM when a patch touches their agents, champions, legends, heroes or weapons.</p>
 <p>See current examples: <a href="../patches/">latest patch summaries</a>.</p>
-<div class="card" style="margin:2rem 0"><h2>Get patch TL;DRs in Discord</h2><p>Join free and follow #patch-notes.</p><p><a class="btn btn-p" href="${D}" rel="noopener">Join the Discord</a></p></div>` },
+<div class="card" style="margin:2rem 0"><h2>Get patch TL;DRs in Discord</h2><p>Join free and follow #patch-notes.</p><p><a class="btn btn-p" href="${D}" rel="noopener">Add to Discord</a></p></div>` },
 { slug: 'cursor-prompting-tips', title: 'Vibe Coding Prompts That Work: 9 Tips for Cursor, Lovable, Bolt and v0',
   desc: 'Practical prompting tips for AI coding tools: scope files, define done, ask for a plan first, paste errors verbatim, and stop the AI from rewriting working code.',
   faq: [['How do I stop Cursor from changing files I did not ask about?', 'Name the files it may edit and add "do not modify any other files." Ask for a plan first and approve it before edits.'],
@@ -109,5 +109,5 @@ Check: exposed secrets, missing auth or ownership checks, open database rules,
 unvalidated input, SQL or HTML injection, and unmetered paid API calls.
 Output: a list ranked by severity, each with file, line, why it matters,
 and a one-line fix. If you are unsure, say so instead of guessing.</code></pre>
-<div class="card" style="margin:2rem 0"><h2>Get a quick roast first</h2><p>Run <code>/roast</code> with a public GitHub URL in the free Prompt Medic Discord. It reads your README, file tree and key files and returns a score out of 10, the top security issues, bugs and quick wins. AI reviews can miss things or be wrong, so treat it as a first pass, not a pentest. 1 free roast a day.</p><p><a class="btn btn-p" href="${D}" rel="noopener">Join the Discord</a></p></div>` },
+<div class="card" style="margin:2rem 0"><h2>Get a quick roast first</h2><p>Run <code>/roast</code> with a public GitHub URL in the free Prompt Medic Discord. It reads your README, file tree and key files and returns a score out of 10, the top security issues, bugs and quick wins. AI reviews can miss things or be wrong, so treat it as a first pass, not a pentest. 1 free roast a day.</p><p><a class="btn btn-p" href="${D}" rel="noopener">Add to Discord</a></p></div>` },
 ];
