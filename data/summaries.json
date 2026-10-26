@@ -2,43 +2,39 @@
  "fortnite": {
   "title": "Fortnite update: Horrors Worth Facing Together / Fortnite: Override Is Here!",
   "url": "https://www.fortnite.com/news",
-  "date": "2026-10-15T18:03:06Z",
+  "date": "2026-10-26T02:00:27Z",
   "s": {
-   "headline": "Fortnitemares Horror Islands and Override Update Launch",
+   "headline": "Fortnitemares & Override: New Horrors, Sprites, FNAF Bosses",
    "top_changes": [
-    "New spine-chilling Fortnitemares islands with Safety in Numbers Quest",
-    "Fortnite: Override introduces game-changing Overrides inspired by Sonic, Tetris, Pac-Man",
-    "Cursed cartridge corrupts Battle Royale with new weapons, mechanics, and bosses",
-    "Five Nights at Freddy's animatronic bosses at Freddy Fazbear's Pizza Parlor",
-    "New collectible Sprites with powers now appear in Ranked (abilities disabled)"
+    "New Fortnitemares Islands and Safety in Numbers Quest",
+    "Override mode with Sonic, Tetris, Pac-Man inspired areas",
+    "Cursed cartridge corrupts BR with new weapons and bosses",
+    "Five Nights at Freddy's animatronic bosses at Pizza Parlor",
+    "New collectible Sprites with powers; Ranked with abilities off"
    ],
    "buffs": [],
    "nerfs": [],
-   "meta_impact": "The update adds horror-themed bosses and mechanics that force new survival strategies in Battle Royale. Override and Sprites introduce variable powers and exploration, shifting focus toward collection and adaptation. Ranked remains balanced by disabling Sprite abilities.",
+   "meta_impact": "New bosses and mechanics from FNAF and cursed cartridge add horror elements to Battle Royale fights. Sprites introduce collectible powers outside Ranked, shifting strategy toward extraction and leveling. Overrides and themed areas expand exploration and rule-breaking gameplay.",
    "breakdown": [
     {
      "name": "Fortnitemares Islands",
-     "change": "Spine-chilling collection of islands with twists for group play"
+     "change": "Spine-chilling collection with twists; face fear with friends for quest"
     },
     {
-     "name": "Override",
-     "change": "Activates to switch up gameplay with areas from gaming legends"
+     "name": "Override Mode",
+     "change": "Activate overrides to switch rules; areas inspired by Sonic, Tetris, Pac-Man"
     },
     {
      "name": "Cursed Cartridge",
-     "change": "Spreads corruption adding new weapons, mechanics, and bosses"
+     "change": "Spreads corruption in BR; adds powerful weapons, mechanics, bosses"
     },
     {
-     "name": "Five Nights at Freddy's",
-     "change": "Animatronic bosses lurk at Freddy Fazbear's Pizza Parlor"
+     "name": "FNAF Animatronics",
+     "change": "Bosses lurk at Freddy Fazbear's Pizza Parlor; defeat to possess suit"
     },
     {
      "name": "Sprites",
-     "change": "New collectibles with extractable game-changing powers"
-    },
-    {
-     "name": "Ranked Sprites",
-     "change": "Appear in Ranked with abilities disabled for fair play"
+     "change": "New collectibles with extractable powers; level up collection; Ranked disabled"
     }
    ]
   }
@@ -48,21 +44,33 @@
   "url": "https://playvalorant.com/en-us/news/game-updates/valorant-patch-notes-13-08",
   "date": "2026-10-13T13:00:00.000Z",
   "s": {
-   "headline": "VALORANT 13.08: Map Rating, Corrode Updates & Map Pool Swap",
+   "headline": "Valorant 13.08: Map Pool Swap, Corrode Updates & Map Rating",
    "top_changes": [
-    "Map Rating system added for Competitive/Premier",
-    "Corrode map changes to defender paths, mid, and plant",
-    "Map pool: Bind & Corrode in, Ascent & Split out",
-    "Performance Score adjustments for damage/kills/deaths",
-    "Vanguard ban numbers shared for Act 5"
+    "Bind and Corrode added to Competitive and Deathmatch queues",
+    "Ascent and Split removed from Competitive and Deathmatch queues",
+    "Corrode receives Defender path, Mid, and A Site plant zone changes",
+    "New Map Rating system added for Competitive and Premier",
+    "Performance Score adjustments for Damage, Kills, Deaths, and Chamber"
    ],
    "buffs": [],
    "nerfs": [],
-   "meta_impact": "Map rotation forces adaptation to Bind and Corrode playstyles. Map Rating pushes players to specialize on maps for better grades. Performance Score tweaks better value utility and first bloods across agents.",
+   "meta_impact": "Map pool rotation forces players to adapt to Bind and Corrode while removing Ascent and Split. Faster Corrode rotations and adjusted Mid fights shift defensive and retake strategies. Map Rating adds long-term proficiency tracking that may influence agent and map selection in ranked play.",
    "breakdown": [
     {
-     "name": "Killjoy",
-     "change": "Alarmbot VFX/audio now triggers on moving doorway destruction"
+     "name": "Corrode",
+     "change": "Defender paths into A and B Site shortened for faster rotations"
+    },
+    {
+     "name": "Corrode",
+     "change": "Mid half wall changed to metal and moved 1m to reduce spam"
+    },
+    {
+     "name": "Corrode",
+     "change": "Lower Mid boxes relocated with added jump-up and raised wall"
+    },
+    {
+     "name": "Corrode",
+     "change": "A Site plant zone adjusted to weaken A Link post-plant"
     },
     {
      "name": "Map Rating",
@@ -70,180 +78,197 @@
     },
     {
      "name": "Performance Score",
-     "change": "Increased impact of Damage, Adjusted Kills, Adjusted Deaths; Chamber utility tweaks"
+     "change": "Increased impact from Damage, Adjusted Kills, and Adjusted Deaths"
     },
     {
-     "name": "Corrode - Defender Paths",
-     "change": "Adjusted A/B site paths to shorten rotations for retakes"
+     "name": "Performance Score",
+     "change": "Chamber-specific utility adjustments added"
     },
     {
-     "name": "Corrode - Mid",
-     "change": "Half wall moved 1m, metal material; boxes relocated, wall raised"
+     "name": "Killjoy",
+     "change": "Alarmbot now triggers VFX and audio when destroyed by moving doors"
     },
     {
-     "name": "Corrode - A Site",
-     "change": "Plant zone adjusted to reduce A Link post-plant effectiveness"
+     "name": "Competitive",
+     "change": "Masterful accolade threshold bug fixed"
     },
     {
-     "name": "Competitive Queue",
-     "change": "Bind and Corrode added; Ascent and Split removed"
+     "name": "UI",
+     "change": "New Queue and Mode Select interface added"
     },
     {
-     "name": "Client",
-     "change": "New Queue/Mode Select interface and Career navigation bar"
-    }
-   ]
-  }
- },
- "apex": {
-  "title": "Apex Legends: Latest Update - 10/09/2026",
-  "url": "https://store.steampowered.com/news/app/1172470/view/1846018067934200",
-  "date": "2026-10-09T17:36:30.000Z",
-  "s": {
-   "headline": "Matchmaking Test Increases Plat+ Queue Times",
-   "top_changes": [
-    "Matchmaking test activated for Plat+ on all platforms",
-    "Max queue times increased scaling with rank tier",
-    "Masters players may see up to 30s extension",
-    "Prioritizes tighter skill band lobbies before expanding search"
-   ],
-   "buffs": [],
-   "nerfs": [],
-   "meta_impact": "High-rank matches should see tighter skill bands with less spillover into mid-rank lobbies. Plat+ players face modestly longer queues in exchange for improved matchmaking quality. The test runs until season end or enough data is gathered.",
-   "breakdown": [
-    {
-     "name": "Matchmaking System",
-     "change": "Increases max queue times for Plat+ to tighten skill bands"
+     "name": "Career",
+     "change": "Navigation bar added for Rank Legacy, Accolades, and Map Rating"
     }
    ]
   }
  },
  "rivals": {
-  "title": "Marvel Rivals Version 20261015 Patch Notes",
-  "url": "https://store.steampowered.com/news/app/2767030/view/1846651706676631",
-  "date": "2026-10-15T07:19:34.000Z",
+  "title": "Marvel Rivals Version 20261022 Patch Notes",
+  "url": "https://store.steampowered.com/news/app/2767030/view/1847286114031572",
+  "date": "2026-10-22T07:32:01.000Z",
   "s": {
-   "headline": "Marvel Rivals Halloween Patch: New Events & Bug Fixes",
+   "headline": "New Path to Doomsday Mode & Bug Fixes Oct 22",
    "top_changes": [
-    "Pop & Win spooky costume event launches",
-    "All Hallows' Glow event with free rewards",
-    "Jeff the Land Shark Reservoir Ripple bug fix",
-    "Black Widow Bite Bounce mobility fix",
-    "Map collision stability improvements"
+    "New Path to Doomsday: Avengers Endgame mode launches",
+    "Multiple new cosmetic bundles added to store",
+    "Bug fixes for Black Cat, Black Widow, Hawkeye and more",
+    "Times Square Avengers Endgame events and rewards"
    ],
    "buffs": [],
    "nerfs": [],
-   "meta_impact": "Patch adds seasonal events and cosmetics with no hero balance changes. Bug fixes improve Jeff and Black Widow reliability in specific modes. Overall meta stays the same as gameplay mechanics remain untouched.",
+   "meta_impact": "No hero balance changes means the current meta remains unchanged. New limited-time mode offers fresh gameplay focused on team battles and rewards. Players shift attention to events and cosmetics while enjoying improved stability from fixes.",
    "breakdown": [
     {
-     "name": "Jeff the Land Shark",
-     "change": "Fixed Reservoir Ripple bug where Aqua Burst radius failed to expand after Splish-Splash Pew Pew hits in Blood Hunt"
+     "name": "Black Cat",
+     "change": "Fixed Portal Paws unable to use portals on walls after Fortune's Favor"
     },
     {
      "name": "Black Widow",
-     "change": "Fixed Widow's Bite Slam issue causing excessive launch distance"
+     "change": "Fixed abnormal directional shifting on Widow's Bite Slam"
     },
     {
-     "name": "Maps",
-     "change": "Fixed various collision issues that could trap heroes in environment"
+     "name": "Hawkeye",
+     "change": "Fixed visual glitch of empty hands when switching from Psionic Arrow"
+    },
+    {
+     "name": "Competitive",
+     "change": "Fixed Team Wipe not counting toward ACE if opponent quit"
+    },
+    {
+     "name": "The Punisher",
+     "change": "Fixed SFX glitch with Dangan Ronin costume and Daredevil Team-Up"
+    },
+    {
+     "name": "Psylocke Team-Up",
+     "change": "Fixed audio bug when Senbonzakura Strike charge canceled"
+    },
+    {
+     "name": "Doctor Strange",
+     "change": "Fixed model clipping on Avengers: Infinity War costume"
+    },
+    {
+     "name": "Blade",
+     "change": "Fixed abnormal blade edge on Vampire King costume showcase"
+    },
+    {
+     "name": "Thor",
+     "change": "Fixed model clipping and animation on The Avengers costume"
     }
    ]
   }
  },
- "lol": {
-  "title": "League of Legends Patch 26.20 Notes",
-  "url": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-20-notes",
-  "date": "2026-10-06T18:00:00.000Z",
+ "apex": {
+  "title": "Apex Legends: Latest Update 10/20/2026",
+  "url": "https://store.steampowered.com/news/app/1172470/view/1846651706696296",
+  "date": "2026-10-20T18:05:45.000Z",
   "s": {
-   "headline": "Worlds patch: Ambessa/K'Sante nerfs, Rocketbelt changes",
+   "headline": "AMD Driver Update Fixes Crashes for 9070 GPUs",
    "top_changes": [
-    "Ambessa Passive damage reduced",
-    "K'Sante W mana cost up, damage reduction down",
-    "Hextech Rocketbelt AH reduced, active damage increased",
-    "Kennen E and Kindred W/E buffs",
-    "Multiple Classic mode champions added"
+    "AMD mainline driver update released",
+    "Resolves crashes for 9070 series GPUs in Apex",
+    "Players advised to update to latest version"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "meta_impact": "This driver fix improves stability for AMD 9070 users, reducing crashes during play. No changes to gameplay or balance. Affected players can now participate more reliably.",
+   "breakdown": []
+  }
+ },
+ "lol": {
+  "title": "League of Legends Patch 26.21 Notes",
+  "url": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-21-notes",
+  "date": "2026-10-20T18:00:00.000Z",
+  "s": {
+   "headline": "26.21: Caitlyn/Jinx nerfs, Azir buffs, ARAM Mayhem",
+   "top_changes": [
+    "Caitlyn passive/Q adjusted, Jinx base stats nerfed",
+    "Lee Sin W/R and Nidalee W/E nerfed",
+    "Azir mana growth, Ryze Q/W, Sion base/R buffed",
+    "Hubris/Greaves nerfed for ranged, Dawncore AP buffed",
+    "New ARAM Mayhem 'Journey to Stardom' with augments"
    ],
    "buffs": [
-    "Diana: W shield bonus health ratio 11% → 14%",
-    "Kennen: E bonus AS 40/50/60/70/80% → 50/60/70/80/90%",
-    "Kindred: W monster mod 150% → 165%, E slow 1s → 1.5s",
-    "Lillia: R duration now scales 2.5/2.75/3s",
-    "Lucian: AD per level 2.5 → 2.9",
-    "Mordekaiser: Q scaling +7/lvl, R CD reduced",
-    "Neeko: E base damage and root duration increased",
-    "Smolder: Passive crit scaling and R heal increased"
+    "Azir: Mana Growth 40 to 50 per level",
+    "Darius: Q cooldown reduced at rank 5",
+    "Miss Fortune: E and R damage increased",
+    "Nunu: R max damage increased",
+    "Orianna: Q/W AP ratios increased",
+    "Ryze: Q flux damage and MS improved",
+    "Sion: Health growth and R damage increased",
+    "Taliyah: E damage increased"
    ],
    "nerfs": [
-    "Ambessa: Passive damage 5-30 (+25% bAD) → 5-25 (+20% bAD)",
-    "Ashe: AD per level 3.5 → 3",
-    "Cassiopeia: Base HP 630 → 610, base mana 480 → 450",
-    "K'Sante: W mana cost increased, W DR 30/75% → 25/70%",
-    "Yunara: Q on-hit damage reduced, W slow no longer stacks",
-    "Experimental Hexplate: Ranged mod reduced to 50%",
-    "Runaan's Hurricane: AD per bolt 65% → 60%",
-    "Graves: Base AD 54.1 → 50, AD/level 3.1 → 2.5"
+    "Caitlyn: Passive headshot damage reduced",
+    "Jinx: AD and health growth reduced",
+    "Lee Sin: W cooldown increased, R damage reduced",
+    "Nidalee: W damage and E AS reduced",
+    "Qiyana: Q damage reduced",
+    "Rammus: W bonus armor/MR reduced",
+    "Tristana: Q early AS reduced",
+    "Yone: Q AD ratio reduced"
    ],
-   "meta_impact": "Nerfs to pro staples Ambessa and K'Sante plus Rocketbelt changes should reduce their dominance heading into Worlds. Buffs to Kennen, Kindred, and others aim to bring more variety into viability. Classic mode additions and Mayhem tweaks add side content without shifting Rift meta.",
+   "meta_impact": "Nerfs to dominant marksmen Caitlyn/Jinx and junglers Lee Sin/Nidalee/Rammus reduce their presence and open picks for others. Buffs to Azir, Orianna, Ryze, and Sion plus item tweaks encourage mid diversity and shift builds away from ranged Hubris/Greaves abuse. ARAM Mayhem adds new augments and progression for fresh gameplay.",
    "breakdown": [
     {
-     "name": "Ambessa",
-     "change": "Passive damage reduced for late game reliability"
+     "name": "Azir",
+     "change": "Mana Growth increased to 50/level"
     },
     {
-     "name": "Ashe",
-     "change": "AD per level reduced to lower raw damage"
+     "name": "Caitlyn",
+     "change": "Passive headshot and Q damage adjusted"
     },
     {
-     "name": "Cassiopeia",
-     "change": "Base HP and mana reduced for early laning"
+     "name": "Jinx",
+     "change": "AD and health growth reduced"
     },
     {
-     "name": "Diana",
-     "change": "W shield health ratio increased for bruiser builds"
+     "name": "Lee Sin",
+     "change": "W cooldown up, R damage down"
     },
     {
-     "name": "Kennen",
-     "change": "E bonus attack speed increased"
+     "name": "Nidalee",
+     "change": "W damage and E AS reduced"
     },
     {
-     "name": "Kindred",
-     "change": "W monster damage and E slow duration increased"
+     "name": "Orianna",
+     "change": "Q/W AP ratios increased"
     },
     {
-     "name": "K'Sante",
-     "change": "W mana cost up, damage reduction reduced"
+     "name": "Ryze",
+     "change": "Q flux/MS and W AP ratio improved"
     },
     {
-     "name": "Lillia",
-     "change": "R duration now scales with rank"
+     "name": "Sion",
+     "change": "Health growth and R damage buffed"
     },
     {
-     "name": "Lucian",
-     "change": "AD per level increased"
+     "name": "Hubris",
+     "change": "Ranged AD and stacks reduced"
     },
     {
-     "name": "Mordekaiser",
-     "change": "Q late scaling and R cooldown improved"
+     "name": "Gluttonous Greaves",
+     "change": "Cost increased to 1100g"
     },
     {
-     "name": "Neeko",
-     "change": "E damage and empowered root duration increased"
+     "name": "Dawncore",
+     "change": "AP per 100% base MR increased to 15"
     },
     {
-     "name": "Smolder",
-     "change": "Passive crit scaling and R self-heal increased"
+     "name": "Varus",
+     "change": "Q bugfix and passive buff applied"
     },
     {
-     "name": "Hextech Rocketbelt",
-     "change": "AH reduced, active damage and AP ratio increased"
+     "name": "Rammus",
+     "change": "W bonus armor/MR reduced"
     },
     {
-     "name": "Experimental Hexplate",
-     "change": "Ranged effectiveness reduced"
+     "name": "Tristana",
+     "change": "Q early AS reduced"
     },
     {
-     "name": "Runaan's Hurricane",
-     "change": "AD per bolt reduced"
+     "name": "Yone",
+     "change": "Q AD ratio reduced to 105%"
     }
    ]
   }
