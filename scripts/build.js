@@ -49,10 +49,11 @@ write('guides/index.html', shell('Prompt Engineering and Patch Notes Guides', 'F
   `<p class="bc"><a href="../">Home</a> › Guides</p><h1>Guides</h1><div class="grid g2">${GUIDES.map(g => `<a class="card" style="text-decoration:none;color:inherit" href="${g.slug}.html"><h2>${esc(g.title)}</h2><p>${esc(g.desc)}</p></a>`).join('')}</div>`));
 const today = new Date().toISOString().slice(0, 10);
 const ROAST = require('./roast-pages')({ B, shell, esc, write, invite: cfg.discordInvite });
-const urls = [...ROAST.urls.map(u => [u, today, '0.9']), [`${B}/`, today, '1.0'], [`${B}/patches/`, today, '0.8'], ...pages.map(p => [p.canon, today, '0.7']), [`${B}/guides/`, today, '0.8'], ...guideUrls.map(([u]) => [u, today, '0.8'])];
+const EXTRA = require('./extra-pages')({ B, shell, write, cfg });
+const urls = [...EXTRA.urls.map(u => [u, today, '0.9']), ...ROAST.urls.map(u => [u, today, '0.9']), [`${B}/`, today, '1.0'], [`${B}/patches/`, today, '0.8'], ...pages.map(p => [p.canon, today, '0.7']), [`${B}/guides/`, today, '0.8'], ...guideUrls.map(([u]) => [u, today, '0.8'])];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(([u, d, p]) => `  <url><loc>${u}</loc><lastmod>${d}</lastmod><priority>${p}</priority></url>`).join('\n')}\n</urlset>\n`);
 write('robots.txt', ['User-agent: *', 'Allow: /', '', ...['GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'ClaudeBot', 'Claude-Web', 'PerplexityBot', 'Google-Extended', 'Applebot-Extended', 'CCBot'].flatMap(b => [`User-agent: ${b}`, 'Allow: /', '']), `Sitemap: ${B}/sitemap.xml`, ''].join('\n'));
-const LLMS_ROAST = ROAST.llms;
+const LLMS_ROAST = ROAST.llms + EXTRA.llms;
 write('llms.txt', `# Prompt Medic
 
 > Prompt Medic is a Discord bot for vibe coders, AI builders and gamers. It fixes AI prompts that aren't working, roasts GitHub repos for security issues and bugs, and posts summaries of official game patch notes. Free tier available; Premium is $5/month.

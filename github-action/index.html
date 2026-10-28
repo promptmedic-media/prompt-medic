@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Repo Roast GitHub Action: Free AI PR Review for Vibe Coders | Prompt Medic</title><meta name="description" content="A free, open-source GitHub Action that scores every pull request 0-10 and flags leaked secrets, IDOR, missing RLS, bugs and quick wins. Bring your own OpenAI-compatible key."><link rel="canonical" href="https://promptmedic-media.github.io/prompt-medic/github-action/">
+<meta property="og:type" content="article"><meta property="og:title" content="Repo Roast GitHub Action: Free AI PR Review for Vibe Coders"><meta property="og:description" content="A free, open-source GitHub Action that scores every pull request 0-10 and flags leaked secrets, IDOR, missing RLS, bugs and quick wins. Bring your own OpenAI-compatible key."><meta property="og:url" content="https://promptmedic-media.github.io/prompt-medic/github-action/"><meta property="og:image" content="https://promptmedic-media.github.io/prompt-medic/assets/og.png">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Repo Roast GitHub Action: Free AI PR Review for Vibe Coders"><meta name="twitter:description" content="A free, open-source GitHub Action that scores every pull request 0-10 and flags leaked secrets, IDOR, missing RLS, bugs and quick wins. Bring your own OpenAI-compatible key."><meta name="twitter:image" content="https://promptmedic-media.github.io/prompt-medic/assets/og.png">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🩺</text></svg>">
+<link rel="stylesheet" href="../assets/style.css"><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Repo Roast GitHub Action","applicationCategory":"DeveloperApplication","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"url":"https://github.com/promptmedic-media/repo-roast-action"}</script></head>
+<body><header class="nav"><div class="wrap"><a class="logo" href="../">🩺 Prompt<span>Medic</span></a><nav><a href="../#features">Features</a><a href="./">Guides</a><a href="../patches/">Patch notes</a></nav><a class="btn btn-p btn-s" href="https://discord.com/oauth2/authorize?client_id=1560480862028439552" rel="noopener">Add to Discord</a></div></header>
+<main class="patch"><section><div class="wrap"><p class="bc"><a href="../">Home</a> › GitHub Action</p><h1>Repo Roast GitHub Action</h1>
+<p class="lead">This free, open-source action gives every pull request a 0-10 score plus the security holes AI-written code tends to ship: secrets in <code>NEXT_PUBLIC_</code> vars, missing ownership checks, Supabase tables with RLS off, and injection. It works with any OpenAI-compatible key (OpenAI, OpenRouter, Groq, local).</p>
+<p><a class="btn btn-p" href="https://github.com/promptmedic-media/repo-roast-action" rel="noopener">View on GitHub</a> <a class="btn btn-g" href="https://github.com/promptmedic-media/repo-roast-action/pull/1" rel="noopener">See a live demo PR</a></p>
+<div class="card"><h2>2-minute setup</h2><p>Add a repo secret named <code>ROAST_API_KEY</code>, then create <code>.github/workflows/repo-roast.yml</code>:</p><pre>name: Repo Roast
+on: pull_request
+permissions:
+  contents: read
+  pull-requests: write
+jobs:
+  roast:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: promptmedic-media/repo-roast-action@v1
+        with:
+          api-key: ${{ secrets.ROAST_API_KEY }}</pre></div>
+<div class="card"><h2>What the demo PR got</h2><p><b>🔴 1/10</b>: "This vibe-coded API is a masterclass in how to leak your entire database." It flagged a service_role key in a NEXT_PUBLIC_ var, an IDOR on /api/orders/:id, an unauthenticated admin delete route, and RLS being bypassed.</p></div></div></section></main>
+<footer><div class="wrap"><span>© 2026 Prompt Medic · <a href="./">Guides</a> · <a href="../patches/">Patch notes</a> · <a href="https://discord.com/oauth2/authorize?client_id=1560480862028439552">Discord</a></span></div></footer></body></html>
