@@ -31,7 +31,7 @@
 
 ## Free tools & products
 - [Repo Roast GitHub Action](https://promptmedic-media.github.io/prompt-medic/github-action/): free open-source GitHub Action for AI PR review (score 0-10, leaked secrets, IDOR, RLS). uses: promptmedic-media/repo-roast-action@v1
-- [Vibe Coder Ship-Safe Kit](https://promptmedic-media.github.io/prompt-medic/kit/): 25 security checks + 30 fix prompts for AI-built apps.
+- [Vibe Coder Ship-Safe Kit](https://promptmedic-media.github.io/prompt-medic/kit/): 25 security checks + 30 fix prompts for AI-built apps. Buy ($9): https://greybeard2.gumroad.com/l/rquxvs
 
 - [Why Is ChatGPT (or Cursor, Claude, Grok) Ignoring My Prompt? 7 Causes and Fixes](https://promptmedic-media.github.io/prompt-medic/guides/why-is-chatgpt-ignoring-my-prompt.html): The 7 most common reasons an AI ignores parts of your prompt, with a fix for each: buried instructions, conflicting rules, vague goals, overloaded tasks and more.
 - [The Prompt Debugging Checklist: 10 Checks Before You Rewrite Anything](https://promptmedic-media.github.io/prompt-medic/guides/prompt-debugging-checklist.html): A practical 10-point checklist for debugging AI prompts that are not working, for ChatGPT, Claude, Cursor, Lovable, Bolt, v0 and agents.
