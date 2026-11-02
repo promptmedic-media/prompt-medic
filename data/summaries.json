@@ -1,4 +1,229 @@
 {
+ "apex": {
+  "title": "Apex Legends: Latest Update - 10/26/2026",
+  "url": "https://store.steampowered.com/news/app/1172470/view/1847920302229359",
+  "date": "2026-10-28T02:00:32.000Z",
+  "s": {
+   "headline": "Ranked Exploit Fixed in Apex Legends Update",
+   "top_changes": [
+    "Removed exploit for entering Ranked matches without paying entry costs"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "meta_impact": "This fix prevents unfair Ranked entries, restoring integrity to the mode. All players must now pay proper costs to compete. It promotes fairer matchmaking and competition overall.",
+   "breakdown": [
+    {
+     "name": "Ranked Mode",
+     "change": "Fixed exploit allowing entry without paying costs"
+    }
+   ]
+  }
+ },
+ "rivals": {
+  "title": "Marvel Rivals Version 20261029 Patch Notes",
+  "url": "https://store.steampowered.com/news/app/2767030/view/1847920302234131",
+  "date": "2026-10-29T10:00:29.000Z",
+  "s": {
+   "headline": "Patch 20261029: New Bundles, Event & Bug Fixes",
+   "top_changes": [
+    "Winter Soldier & Storm Marvel T\u014dkon bundles added",
+    "Night of Illusions event launches with puzzles & rewards",
+    "Gorr out-of-bounds bug fixed",
+    "Multiple hero model & ability fixes",
+    "Times Square map navigation issue resolved"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "meta_impact": "No balance adjustments mean the current meta stays the same. Focus is on stability and new cosmetics. Players gain fresh event content without gameplay shifts.",
+   "breakdown": [
+    {
+     "name": "Gorr",
+     "change": "Fixed bug allowing flight out of map after Shadow Harvest post-Black Berserker"
+    },
+    {
+     "name": "Rogue",
+     "change": "Fixed left arm clipping through cape on X-Men '97 Season 2 costume"
+    },
+    {
+     "name": "Black Cat",
+     "change": "Fixed missing overhead icon on Fatal Weaver during Binding Ties Team-Up"
+    },
+    {
+     "name": "Black Cat",
+     "change": "Fixed Ultimate keybind issue allowing Q activation despite custom binds"
+    },
+    {
+     "name": "Invisible Woman",
+     "change": "Fixed Veiled Step stealth not breaking on other ability casts"
+    },
+    {
+     "name": "Times Square",
+     "change": "Fixed 'One More Round' preventing return after match"
+    },
+    {
+     "name": "Store UI",
+     "change": "Fixed Mall title drift after completing Pop & Wins"
+    },
+    {
+     "name": "Moon Knight",
+     "change": "Fixed missing Ankh placement in Blood Hunt without Traits"
+    }
+   ]
+  }
+ },
+ "valorant": {
+  "title": "VALORANT Patch Notes 13.09",
+  "url": "https://playvalorant.com/en-us/news/game-updates/valorant-patch-notes-1309",
+  "date": "2026-10-27T13:00:00.000Z",
+  "s": {
+   "headline": "New Agent Hush, Warden Buffs, Clove Nerfs",
+   "top_changes": [
+    "New Agent Hush added with telekinesis abilities",
+    "Warden recoil and spread improved",
+    "Clove movement speed and kill rewards adjusted",
+    "Haste and Snapshot buff terms standardized",
+    "Tooltip and UI clarity updates across agents"
+   ],
+   "buffs": [
+    "Warden: pitch recoil smoothed, 2nd/3rd bullet error reduced",
+    "Brimstone/Clove/Miks/Neon/Waylay: Haste buff now shown with timer",
+    "All Agents: updated ability descriptions and tooltips for clarity"
+   ],
+   "nerfs": [
+    "Clove: Pick-me-up movement speed 15% to 10%",
+    "Clove: Not Dead Yet kill now grants ult point and signature refresh to killer"
+   ],
+   "meta_impact": "Hush introduces new telekinesis utility that could disrupt team fights and positioning. Warden becomes more viable at its price point with better handling. Clove's adjustments reduce her mobility edge and reward opponents for punishing her ultimate.",
+   "breakdown": [
+    {
+     "name": "Hush",
+     "change": "New agent with Telekinesis passive, Displacement, Flashbulb, Flow, Suspension abilities"
+    },
+    {
+     "name": "Warden",
+     "change": "Pitch recoil smoothed, 2nd bullet error .25 to .2, 3rd .6 to .5"
+    },
+    {
+     "name": "Clove",
+     "change": "Pick-me-up speed bonus 15% to 10%; Not Dead Yet kill grants ult/signature points to killer"
+    },
+    {
+     "name": "Brimstone",
+     "change": "Stim Beacon shows Haste buff"
+    },
+    {
+     "name": "Neon",
+     "change": "High Gear/Overdrive shows Haste buff"
+    },
+    {
+     "name": "Waylay",
+     "change": "Convergent Paths renamed to Haste buff"
+    },
+    {
+     "name": "Multiple Agents",
+     "change": "Passive descriptions added; tooltip redesign for readability"
+    }
+   ]
+  }
+ },
+ "lol": {
+  "title": "League of Legends Patch 26.21 Notes",
+  "url": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-21-notes",
+  "date": "2026-10-20T18:00:00.000Z",
+  "s": {
+   "headline": "Patch 26.21: Caitlyn/Jinx/Lee nerfs, Varus fix, item tweaks",
+   "top_changes": [
+    "Caitlyn and Jinx nerfed for high presence",
+    "Lee Sin and Rammus power reduced",
+    "Varus Q bug fixed with compensation buffs",
+    "Gluttonous Greaves and Hubris nerfed for ranged",
+    "Buffs to Azir, Orianna, Ryze, Sion, Nunu"
+   ],
+   "buffs": [
+    "Azir: Mana Growth 40 to 50 per level",
+    "Darius: Q cooldown reduced at rank 5",
+    "Miss Fortune: E and R damage increased",
+    "Nunu & Willump: R max damage increased",
+    "Orianna: Q/W AP ratios increased",
+    "Ryze: Q flux and MS improved, W AP ratio up",
+    "Sion: Health growth increased, R channel damage up",
+    "Taliyah: E damage increased"
+   ],
+   "nerfs": [
+    "Caitlyn: Passive headshot damage down, Q base adjusted",
+    "Jinx: AD growth and base health reduced",
+    "Lee Sin: W cooldown to 8s, R damage reduced",
+    "Nidalee: W damage and E AS reduced",
+    "Qiyana: Q damage reduced",
+    "Rammus: W armor/MR bonuses reduced",
+    "Tristana: Q early attack speed reduced",
+    "Viktor: MS to 330, Q shield reduced"
+   ],
+   "meta_impact": "Nerfs to dominant marksmen and junglers like Caitlyn, Jinx, Lee Sin, and Rammus should open up the meta for other picks. Mages like Azir, Orianna, and Ryze gain breathing room while item changes curb ranged abuse of Greaves and Hubris. Expect shifts toward more varied bot and jungle compositions.",
+   "breakdown": [
+    {
+     "name": "Azir",
+     "change": "Mana Growth increased to 50/level"
+    },
+    {
+     "name": "Caitlyn",
+     "change": "Passive headshot and Q damage adjusted down"
+    },
+    {
+     "name": "Darius",
+     "change": "Q cooldown reduced at max rank"
+    },
+    {
+     "name": "Jinx",
+     "change": "AD growth and base health reduced"
+    },
+    {
+     "name": "Lee Sin",
+     "change": "W cooldown increased, R damage nerfed"
+    },
+    {
+     "name": "Nidalee",
+     "change": "W damage and E attack speed reduced"
+    },
+    {
+     "name": "Nunu & Willump",
+     "change": "R maximum damage increased"
+    },
+    {
+     "name": "Orianna",
+     "change": "Q and W AP ratios increased"
+    },
+    {
+     "name": "Qiyana",
+     "change": "Q damage reduced"
+    },
+    {
+     "name": "Rammus",
+     "change": "W armor and MR bonuses reduced"
+    },
+    {
+     "name": "Ryze",
+     "change": "Q flux/MS and W AP ratio improved"
+    },
+    {
+     "name": "Sion",
+     "change": "Health growth and R damage increased"
+    },
+    {
+     "name": "Varus",
+     "change": "Q bug fixed, Passive and Q damage buffed"
+    },
+    {
+     "name": "Gluttonous Greaves",
+     "change": "Total cost increased to 1100g"
+    },
+    {
+     "name": "Hubris",
+     "change": "Ranged AD and stack values reduced"
+    }
+   ]
+  }
+ },
  "fortnite": {
   "title": "Fortnite update: Horrors Worth Facing Together / Fortnite: Override Is Here!",
   "url": "https://www.fortnite.com/news",
@@ -35,240 +260,6 @@
     {
      "name": "Sprites",
      "change": "New collectibles with extractable powers; level up collection; Ranked disabled"
-    }
-   ]
-  }
- },
- "valorant": {
-  "title": "VALORANT Patch Notes 13.08",
-  "url": "https://playvalorant.com/en-us/news/game-updates/valorant-patch-notes-13-08",
-  "date": "2026-10-13T13:00:00.000Z",
-  "s": {
-   "headline": "Valorant 13.08: Map Pool Swap, Corrode Updates & Map Rating",
-   "top_changes": [
-    "Bind and Corrode added to Competitive and Deathmatch queues",
-    "Ascent and Split removed from Competitive and Deathmatch queues",
-    "Corrode receives Defender path, Mid, and A Site plant zone changes",
-    "New Map Rating system added for Competitive and Premier",
-    "Performance Score adjustments for Damage, Kills, Deaths, and Chamber"
-   ],
-   "buffs": [],
-   "nerfs": [],
-   "meta_impact": "Map pool rotation forces players to adapt to Bind and Corrode while removing Ascent and Split. Faster Corrode rotations and adjusted Mid fights shift defensive and retake strategies. Map Rating adds long-term proficiency tracking that may influence agent and map selection in ranked play.",
-   "breakdown": [
-    {
-     "name": "Corrode",
-     "change": "Defender paths into A and B Site shortened for faster rotations"
-    },
-    {
-     "name": "Corrode",
-     "change": "Mid half wall changed to metal and moved 1m to reduce spam"
-    },
-    {
-     "name": "Corrode",
-     "change": "Lower Mid boxes relocated with added jump-up and raised wall"
-    },
-    {
-     "name": "Corrode",
-     "change": "A Site plant zone adjusted to weaken A Link post-plant"
-    },
-    {
-     "name": "Map Rating",
-     "change": "New 0-500 rating with C-S grades based on win rates and Performance Score"
-    },
-    {
-     "name": "Performance Score",
-     "change": "Increased impact from Damage, Adjusted Kills, and Adjusted Deaths"
-    },
-    {
-     "name": "Performance Score",
-     "change": "Chamber-specific utility adjustments added"
-    },
-    {
-     "name": "Killjoy",
-     "change": "Alarmbot now triggers VFX and audio when destroyed by moving doors"
-    },
-    {
-     "name": "Competitive",
-     "change": "Masterful accolade threshold bug fixed"
-    },
-    {
-     "name": "UI",
-     "change": "New Queue and Mode Select interface added"
-    },
-    {
-     "name": "Career",
-     "change": "Navigation bar added for Rank Legacy, Accolades, and Map Rating"
-    }
-   ]
-  }
- },
- "rivals": {
-  "title": "Marvel Rivals Version 20261022 Patch Notes",
-  "url": "https://store.steampowered.com/news/app/2767030/view/1847286114031572",
-  "date": "2026-10-22T07:32:01.000Z",
-  "s": {
-   "headline": "New Path to Doomsday Mode & Bug Fixes Oct 22",
-   "top_changes": [
-    "New Path to Doomsday: Avengers Endgame mode launches",
-    "Multiple new cosmetic bundles added to store",
-    "Bug fixes for Black Cat, Black Widow, Hawkeye and more",
-    "Times Square Avengers Endgame events and rewards"
-   ],
-   "buffs": [],
-   "nerfs": [],
-   "meta_impact": "No hero balance changes means the current meta remains unchanged. New limited-time mode offers fresh gameplay focused on team battles and rewards. Players shift attention to events and cosmetics while enjoying improved stability from fixes.",
-   "breakdown": [
-    {
-     "name": "Black Cat",
-     "change": "Fixed Portal Paws unable to use portals on walls after Fortune's Favor"
-    },
-    {
-     "name": "Black Widow",
-     "change": "Fixed abnormal directional shifting on Widow's Bite Slam"
-    },
-    {
-     "name": "Hawkeye",
-     "change": "Fixed visual glitch of empty hands when switching from Psionic Arrow"
-    },
-    {
-     "name": "Competitive",
-     "change": "Fixed Team Wipe not counting toward ACE if opponent quit"
-    },
-    {
-     "name": "The Punisher",
-     "change": "Fixed SFX glitch with Dangan Ronin costume and Daredevil Team-Up"
-    },
-    {
-     "name": "Psylocke Team-Up",
-     "change": "Fixed audio bug when Senbonzakura Strike charge canceled"
-    },
-    {
-     "name": "Doctor Strange",
-     "change": "Fixed model clipping on Avengers: Infinity War costume"
-    },
-    {
-     "name": "Blade",
-     "change": "Fixed abnormal blade edge on Vampire King costume showcase"
-    },
-    {
-     "name": "Thor",
-     "change": "Fixed model clipping and animation on The Avengers costume"
-    }
-   ]
-  }
- },
- "apex": {
-  "title": "Apex Legends: Latest Update 10/20/2026",
-  "url": "https://store.steampowered.com/news/app/1172470/view/1846651706696296",
-  "date": "2026-10-20T18:05:45.000Z",
-  "s": {
-   "headline": "AMD Driver Update Fixes Crashes for 9070 GPUs",
-   "top_changes": [
-    "AMD mainline driver update released",
-    "Resolves crashes for 9070 series GPUs in Apex",
-    "Players advised to update to latest version"
-   ],
-   "buffs": [],
-   "nerfs": [],
-   "meta_impact": "This driver fix improves stability for AMD 9070 users, reducing crashes during play. No changes to gameplay or balance. Affected players can now participate more reliably.",
-   "breakdown": []
-  }
- },
- "lol": {
-  "title": "League of Legends Patch 26.21 Notes",
-  "url": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-21-notes",
-  "date": "2026-10-20T18:00:00.000Z",
-  "s": {
-   "headline": "26.21: Caitlyn/Jinx nerfs, Azir buffs, ARAM Mayhem",
-   "top_changes": [
-    "Caitlyn passive/Q adjusted, Jinx base stats nerfed",
-    "Lee Sin W/R and Nidalee W/E nerfed",
-    "Azir mana growth, Ryze Q/W, Sion base/R buffed",
-    "Hubris/Greaves nerfed for ranged, Dawncore AP buffed",
-    "New ARAM Mayhem 'Journey to Stardom' with augments"
-   ],
-   "buffs": [
-    "Azir: Mana Growth 40 to 50 per level",
-    "Darius: Q cooldown reduced at rank 5",
-    "Miss Fortune: E and R damage increased",
-    "Nunu: R max damage increased",
-    "Orianna: Q/W AP ratios increased",
-    "Ryze: Q flux damage and MS improved",
-    "Sion: Health growth and R damage increased",
-    "Taliyah: E damage increased"
-   ],
-   "nerfs": [
-    "Caitlyn: Passive headshot damage reduced",
-    "Jinx: AD and health growth reduced",
-    "Lee Sin: W cooldown increased, R damage reduced",
-    "Nidalee: W damage and E AS reduced",
-    "Qiyana: Q damage reduced",
-    "Rammus: W bonus armor/MR reduced",
-    "Tristana: Q early AS reduced",
-    "Yone: Q AD ratio reduced"
-   ],
-   "meta_impact": "Nerfs to dominant marksmen Caitlyn/Jinx and junglers Lee Sin/Nidalee/Rammus reduce their presence and open picks for others. Buffs to Azir, Orianna, Ryze, and Sion plus item tweaks encourage mid diversity and shift builds away from ranged Hubris/Greaves abuse. ARAM Mayhem adds new augments and progression for fresh gameplay.",
-   "breakdown": [
-    {
-     "name": "Azir",
-     "change": "Mana Growth increased to 50/level"
-    },
-    {
-     "name": "Caitlyn",
-     "change": "Passive headshot and Q damage adjusted"
-    },
-    {
-     "name": "Jinx",
-     "change": "AD and health growth reduced"
-    },
-    {
-     "name": "Lee Sin",
-     "change": "W cooldown up, R damage down"
-    },
-    {
-     "name": "Nidalee",
-     "change": "W damage and E AS reduced"
-    },
-    {
-     "name": "Orianna",
-     "change": "Q/W AP ratios increased"
-    },
-    {
-     "name": "Ryze",
-     "change": "Q flux/MS and W AP ratio improved"
-    },
-    {
-     "name": "Sion",
-     "change": "Health growth and R damage buffed"
-    },
-    {
-     "name": "Hubris",
-     "change": "Ranged AD and stacks reduced"
-    },
-    {
-     "name": "Gluttonous Greaves",
-     "change": "Cost increased to 1100g"
-    },
-    {
-     "name": "Dawncore",
-     "change": "AP per 100% base MR increased to 15"
-    },
-    {
-     "name": "Varus",
-     "change": "Q bugfix and passive buff applied"
-    },
-    {
-     "name": "Rammus",
-     "change": "W bonus armor/MR reduced"
-    },
-    {
-     "name": "Tristana",
-     "change": "Q early AS reduced"
-    },
-    {
-     "name": "Yone",
-     "change": "Q AD ratio reduced to 105%"
     }
    ]
   }
