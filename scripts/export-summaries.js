@@ -6,10 +6,11 @@ require(path.join(bot, 'node_modules/dotenv')).config({ path: path.join(bot, '.e
 const p = require(path.join(bot, 'src/patches'));
 const out = path.join(__dirname, '..', 'data/summaries.json');
 (async () => {
+  let prev = {}; try { prev = JSON.parse(require('fs').readFileSync(out, 'utf8')); } catch {}
   const res = {};
   await Promise.all(Object.keys(p.GAMES).map(async k => {
     try { const g = p.GAMES[k]; const it = (await g.src.list())[0]; res[k] = { title: it.title, url: it.url, date: it.date, s: await p.summarize(k, it, await g.src.body(it)) }; }
-    catch (e) { console.error(k, e.message); }
+    catch (e) { console.error(k, e.message, prev[k] ? '(keeping previous summary)' : ''); if (prev[k]) res[k] = prev[k]; }
   }));
   require('fs').writeFileSync(out, JSON.stringify(res, null, 1)); console.log('wrote', out);
 })();

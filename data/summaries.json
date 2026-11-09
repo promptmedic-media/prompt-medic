@@ -1,225 +1,204 @@
 {
- "apex": {
-  "title": "Apex Legends: Latest Update - 10/26/2026",
-  "url": "https://store.steampowered.com/news/app/1172470/view/1847920302229359",
-  "date": "2026-10-28T02:00:32.000Z",
-  "s": {
-   "headline": "Ranked Exploit Fixed in Apex Legends Update",
-   "top_changes": [
-    "Removed exploit for entering Ranked matches without paying entry costs"
-   ],
-   "buffs": [],
-   "nerfs": [],
-   "meta_impact": "This fix prevents unfair Ranked entries, restoring integrity to the mode. All players must now pay proper costs to compete. It promotes fairer matchmaking and competition overall.",
-   "breakdown": [
-    {
-     "name": "Ranked Mode",
-     "change": "Fixed exploit allowing entry without paying costs"
-    }
-   ]
-  }
- },
- "rivals": {
-  "title": "Marvel Rivals Version 20261029 Patch Notes",
-  "url": "https://store.steampowered.com/news/app/2767030/view/1847920302234131",
-  "date": "2026-10-29T10:00:29.000Z",
-  "s": {
-   "headline": "Patch 20261029: New Bundles, Event & Bug Fixes",
-   "top_changes": [
-    "Winter Soldier & Storm Marvel T\u014dkon bundles added",
-    "Night of Illusions event launches with puzzles & rewards",
-    "Gorr out-of-bounds bug fixed",
-    "Multiple hero model & ability fixes",
-    "Times Square map navigation issue resolved"
-   ],
-   "buffs": [],
-   "nerfs": [],
-   "meta_impact": "No balance adjustments mean the current meta stays the same. Focus is on stability and new cosmetics. Players gain fresh event content without gameplay shifts.",
-   "breakdown": [
-    {
-     "name": "Gorr",
-     "change": "Fixed bug allowing flight out of map after Shadow Harvest post-Black Berserker"
-    },
-    {
-     "name": "Rogue",
-     "change": "Fixed left arm clipping through cape on X-Men '97 Season 2 costume"
-    },
-    {
-     "name": "Black Cat",
-     "change": "Fixed missing overhead icon on Fatal Weaver during Binding Ties Team-Up"
-    },
-    {
-     "name": "Black Cat",
-     "change": "Fixed Ultimate keybind issue allowing Q activation despite custom binds"
-    },
-    {
-     "name": "Invisible Woman",
-     "change": "Fixed Veiled Step stealth not breaking on other ability casts"
-    },
-    {
-     "name": "Times Square",
-     "change": "Fixed 'One More Round' preventing return after match"
-    },
-    {
-     "name": "Store UI",
-     "change": "Fixed Mall title drift after completing Pop & Wins"
-    },
-    {
-     "name": "Moon Knight",
-     "change": "Fixed missing Ankh placement in Blood Hunt without Traits"
-    }
-   ]
-  }
- },
  "valorant": {
   "title": "VALORANT Patch Notes 13.09",
   "url": "https://playvalorant.com/en-us/news/game-updates/valorant-patch-notes-1309",
   "date": "2026-10-27T13:00:00.000Z",
   "s": {
-   "headline": "New Agent Hush, Warden Buffs, Clove Nerfs",
+   "headline": "VALORANT 13.09: New Agent Hush, Warden Buffs, Bug Fixes",
    "top_changes": [
     "New Agent Hush added with telekinesis abilities",
-    "Warden recoil and spread improved",
-    "Clove movement speed and kill rewards adjusted",
+    "Warden weapon recoil and spread improvements",
+    "Clove movement speed and kill reward adjustments",
     "Haste and Snapshot buff terms standardized",
-    "Tooltip and UI clarity updates across agents"
+    "Ability tooltips redesigned with passives added"
    ],
    "buffs": [
-    "Warden: pitch recoil smoothed, 2nd/3rd bullet error reduced",
-    "Brimstone/Clove/Miks/Neon/Waylay: Haste buff now shown with timer",
-    "All Agents: updated ability descriptions and tooltips for clarity"
+    "Warden: pitch recoil smoothed for first bullets",
+    "Warden: 2nd bullet error reduced .25 to .2",
+    "Warden: 3rd bullet error reduced .6 to .5",
+    "Haste: new official term for movement speed buff",
+    "Snapshot: new official term for silhouette reveal",
+    "Brimstone: Stim Beacon shows Haste buff",
+    "Clove: Pick-me-up shows Haste buff",
+    "Neon: High Gear/Overdrive shows Haste buff"
    ],
    "nerfs": [
-    "Clove: Pick-me-up movement speed 15% to 10%",
-    "Clove: Not Dead Yet kill now grants ult point and signature refresh to killer"
+    "Clove: Pick-me-up bonus movement speed 15% to 10%",
+    "Clove: Not Dead Yet kill grants ult and signature point"
    ],
-   "meta_impact": "Hush introduces new telekinesis utility that could disrupt team fights and positioning. Warden becomes more viable at its price point with better handling. Clove's adjustments reduce her mobility edge and reward opponents for punishing her ultimate.",
+   "meta_impact": "Hush's introduction will reshape early agent picks with her unique displacement and suspension tools. Warden gains viability at 2900 credits due to handling buffs. Clove standardization reduces her outlier movement advantage.",
    "breakdown": [
     {
      "name": "Hush",
-     "change": "New agent with Telekinesis passive, Displacement, Flashbulb, Flow, Suspension abilities"
-    },
-    {
-     "name": "Warden",
-     "change": "Pitch recoil smoothed, 2nd bullet error .25 to .2, 3rd .6 to .5"
+     "change": "New agent with Telekinesis passive, Displacement, Flashbulb, Flow, Suspension"
     },
     {
      "name": "Clove",
-     "change": "Pick-me-up speed bonus 15% to 10%; Not Dead Yet kill grants ult/signature points to killer"
+     "change": "Pick-me-up movement speed reduced to 10%"
     },
     {
-     "name": "Brimstone",
-     "change": "Stim Beacon shows Haste buff"
+     "name": "Clove",
+     "change": "Not Dead Yet kill now grants ult point and signature refresh"
     },
     {
-     "name": "Neon",
-     "change": "High Gear/Overdrive shows Haste buff"
+     "name": "Warden",
+     "change": "Recoil smoothed and follow-up spread reduced"
     },
     {
-     "name": "Waylay",
-     "change": "Convergent Paths renamed to Haste buff"
+     "name": "Jett",
+     "change": "Passive removed from Buy Menu for consistency"
     },
     {
-     "name": "Multiple Agents",
-     "change": "Passive descriptions added; tooltip redesign for readability"
+     "name": "Tooltips",
+     "change": "Redesigned with baseline details and better readability"
+    },
+    {
+     "name": "Performance Score",
+     "change": "Hush scores may be bumpy initially; QoL end-game improvements"
+    }
+   ]
+  }
+ },
+ "apex": {
+  "title": "Apex Legends: Latest Update - 11/6/2026",
+  "url": "https://store.steampowered.com/news/app/1172470/view/1848664643347036",
+  "date": "2026-11-06T18:48:48.000Z",
+  "s": {
+   "headline": "E-District Night Removed, Day Version Rotated In",
+   "top_changes": [
+    "E-District (night) removed from all map rotations",
+    "E-District (day) added to map rotations",
+    "Improved E-District (night) planned for end of month",
+    "Future night version to have reduced fog density and adjusted colors"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "meta_impact": "Switch to E-District day improves visibility and reduces fog issues for clearer fights. Aggressive strategies may become more viable with better sightlines. Meta remains stable until improved night version returns later this split.",
+   "breakdown": [
+    {
+     "name": "E-District",
+     "change": "Night version removed from rotations; day version added instead"
     }
    ]
   }
  },
  "lol": {
-  "title": "League of Legends Patch 26.21 Notes",
-  "url": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-21-notes",
-  "date": "2026-10-20T18:00:00.000Z",
+  "title": "League of Legends Patch 26.22 Notes",
+  "url": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-22-notes",
+  "date": "2026-11-03T19:00:00.000Z",
   "s": {
-   "headline": "Patch 26.21: Caitlyn/Jinx/Lee nerfs, Varus fix, item tweaks",
+   "headline": "LoL 26.22: Corki/Rumble buffs, Locke/Yasuo nerfs, Mel midscope",
    "top_changes": [
-    "Caitlyn and Jinx nerfed for high presence",
-    "Lee Sin and Rammus power reduced",
-    "Varus Q bug fixed with compensation buffs",
-    "Gluttonous Greaves and Hubris nerfed for ranged",
-    "Buffs to Azir, Orianna, Ryze, Sion, Nunu"
+    "Corki and Rumble R buffs for pro play",
+    "Locke and Yasuo nerfs to early power",
+    "Mel midscope moves power to scaling",
+    "Doran's Bow nerfed for ADC builds",
+    "ARAM augment balance and map returns"
    ],
    "buffs": [
-    "Azir: Mana Growth 40 to 50 per level",
-    "Darius: Q cooldown reduced at rank 5",
-    "Miss Fortune: E and R damage increased",
-    "Nunu & Willump: R max damage increased",
-    "Orianna: Q/W AP ratios increased",
-    "Ryze: Q flux and MS improved, W AP ratio up",
-    "Sion: Health growth increased, R channel damage up",
-    "Taliyah: E damage increased"
+    "Aurelion Sol: Singularity damage and AP ratio increased",
+    "Corki: Missile Barrage and Big One damage up",
+    "Kayle: Q and R cooldowns reduced",
+    "Maokai: Bramble Smash %HP damage increased",
+    "Naafiri: Q heal and W AD increased",
+    "Rumble: Equalizer AP ratio improved",
+    "Shen: Q monster damage modifier up",
+    "Smolder: W explosion damage increased"
    ],
    "nerfs": [
-    "Caitlyn: Passive headshot damage down, Q base adjusted",
-    "Jinx: AD growth and base health reduced",
-    "Lee Sin: W cooldown to 8s, R damage reduced",
-    "Nidalee: W damage and E AS reduced",
-    "Qiyana: Q damage reduced",
-    "Rammus: W armor/MR bonuses reduced",
-    "Tristana: Q early attack speed reduced",
-    "Viktor: MS to 330, Q shield reduced"
+    "Locke: Q stack damage and W duration reduced",
+    "Thresh: Base AD and R damage lowered",
+    "Yasuo: Q total AD ratio reduced",
+    "Doran's Bow: Attack Damage reduced to 7"
    ],
-   "meta_impact": "Nerfs to dominant marksmen and junglers like Caitlyn, Jinx, Lee Sin, and Rammus should open up the meta for other picks. Mages like Azir, Orianna, and Ryze gain breathing room while item changes curb ranged abuse of Greaves and Hubris. Expect shifts toward more varied bot and jungle compositions.",
+   "meta_impact": "Corki and Rumble gain viability outside pro play while Locke and Yasuo see reduced early dominance. Mel's changes shift her toward late-game scaling with reworked W. Doran's Bow nerf encourages more varied ADC itemization on Rift.",
    "breakdown": [
     {
-     "name": "Azir",
-     "change": "Mana Growth increased to 50/level"
+     "name": "Aurelion Sol",
+     "change": "E Singularity total damage and AP ratio increased"
     },
     {
-     "name": "Caitlyn",
-     "change": "Passive headshot and Q damage adjusted down"
+     "name": "Corki",
+     "change": "R Missile Barrage and Big One damage increased"
     },
     {
-     "name": "Darius",
-     "change": "Q cooldown reduced at max rank"
+     "name": "Kayle",
+     "change": "Q cooldown lowered; R cooldown reduced at early ranks"
     },
     {
-     "name": "Jinx",
-     "change": "AD growth and base health reduced"
+     "name": "Locke",
+     "change": "Q stack and max damage reduced; W duration to 5s"
     },
     {
-     "name": "Lee Sin",
-     "change": "W cooldown increased, R damage nerfed"
+     "name": "Maokai",
+     "change": "Q Bramble Smash % max HP damage increased"
     },
     {
-     "name": "Nidalee",
-     "change": "W damage and E attack speed reduced"
+     "name": "Mel",
+     "change": "Base stats adjusted; Q/W/E/R reworked for scaling"
     },
     {
-     "name": "Nunu & Willump",
-     "change": "R maximum damage increased"
+     "name": "Naafiri",
+     "change": "Q heal increased; W bonus AD to 22%"
     },
     {
-     "name": "Orianna",
-     "change": "Q and W AP ratios increased"
+     "name": "Rumble",
+     "change": "R Equalizer AP ratio increased to 40%"
     },
     {
-     "name": "Qiyana",
-     "change": "Q damage reduced"
+     "name": "Shen",
+     "change": "Q monster damage modifier improved"
     },
     {
-     "name": "Rammus",
-     "change": "W armor and MR bonuses reduced"
+     "name": "Smolder",
+     "change": "W ACHOOO explosion damage increased"
     },
     {
-     "name": "Ryze",
-     "change": "Q flux/MS and W AP ratio improved"
+     "name": "Thresh",
+     "change": "Base AD to 54; R damage reduced"
     },
     {
-     "name": "Sion",
-     "change": "Health growth and R damage increased"
+     "name": "Viktor",
+     "change": "Health growth to 105; R AP ratio to 60%"
     },
     {
-     "name": "Varus",
-     "change": "Q bug fixed, Passive and Q damage buffed"
+     "name": "Yasuo",
+     "change": "Q Steel Tempest AD ratio to 100%"
     },
     {
-     "name": "Gluttonous Greaves",
-     "change": "Total cost increased to 1100g"
+     "name": "Doran's Bow",
+     "change": "Attack Damage reduced from 8 to 7"
     },
     {
-     "name": "Hubris",
-     "change": "Ranged AD and stack values reduced"
+     "name": "Overlord's Bloodmail",
+     "change": "AD to 40; Retribution AD scaling adjusted"
+    }
+   ]
+  }
+ },
+ "rivals": {
+  "title": "Marvel Rivals Version 20261105 Patch Notes",
+  "url": "https://store.steampowered.com/news/app/2767030/view/1848664643340420",
+  "date": "2026-11-05T09:07:02.000Z",
+  "s": {
+   "headline": "Patch 20261105: New Bundles & Bug Fixes",
+   "top_changes": [
+    "New Spider-Man Worthy bundles in store",
+    "New The Thing Cosmic Cook Bundle",
+    "Moon Knight team-up damage fix",
+    "Captain America team-up desync fix"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "meta_impact": "Team-up abilities for Moon Knight and Captain America are now more reliable. Players can expect consistent performance from these synergies without prior bugs interfering.",
+   "breakdown": [
+    {
+     "name": "Moon Knight",
+     "change": "Fixed Talons of Khonshu failing to damage Doctor Strange shields in Blood Moon team-up"
+    },
+    {
+     "name": "Captain America",
+     "change": "Fixed landing desync in Stars Aligned team-up preventing buffs"
     }
    ]
   }
