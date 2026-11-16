@@ -1,208 +1,4 @@
 {
- "valorant": {
-  "title": "VALORANT Patch Notes 13.09",
-  "url": "https://playvalorant.com/en-us/news/game-updates/valorant-patch-notes-1309",
-  "date": "2026-10-27T13:00:00.000Z",
-  "s": {
-   "headline": "VALORANT 13.09: New Agent Hush, Warden Buffs, Bug Fixes",
-   "top_changes": [
-    "New Agent Hush added with telekinesis abilities",
-    "Warden weapon recoil and spread improvements",
-    "Clove movement speed and kill reward adjustments",
-    "Haste and Snapshot buff terms standardized",
-    "Ability tooltips redesigned with passives added"
-   ],
-   "buffs": [
-    "Warden: pitch recoil smoothed for first bullets",
-    "Warden: 2nd bullet error reduced .25 to .2",
-    "Warden: 3rd bullet error reduced .6 to .5",
-    "Haste: new official term for movement speed buff",
-    "Snapshot: new official term for silhouette reveal",
-    "Brimstone: Stim Beacon shows Haste buff",
-    "Clove: Pick-me-up shows Haste buff",
-    "Neon: High Gear/Overdrive shows Haste buff"
-   ],
-   "nerfs": [
-    "Clove: Pick-me-up bonus movement speed 15% to 10%",
-    "Clove: Not Dead Yet kill grants ult and signature point"
-   ],
-   "meta_impact": "Hush's introduction will reshape early agent picks with her unique displacement and suspension tools. Warden gains viability at 2900 credits due to handling buffs. Clove standardization reduces her outlier movement advantage.",
-   "breakdown": [
-    {
-     "name": "Hush",
-     "change": "New agent with Telekinesis passive, Displacement, Flashbulb, Flow, Suspension"
-    },
-    {
-     "name": "Clove",
-     "change": "Pick-me-up movement speed reduced to 10%"
-    },
-    {
-     "name": "Clove",
-     "change": "Not Dead Yet kill now grants ult point and signature refresh"
-    },
-    {
-     "name": "Warden",
-     "change": "Recoil smoothed and follow-up spread reduced"
-    },
-    {
-     "name": "Jett",
-     "change": "Passive removed from Buy Menu for consistency"
-    },
-    {
-     "name": "Tooltips",
-     "change": "Redesigned with baseline details and better readability"
-    },
-    {
-     "name": "Performance Score",
-     "change": "Hush scores may be bumpy initially; QoL end-game improvements"
-    }
-   ]
-  }
- },
- "apex": {
-  "title": "Apex Legends: Latest Update - 11/6/2026",
-  "url": "https://store.steampowered.com/news/app/1172470/view/1848664643347036",
-  "date": "2026-11-06T18:48:48.000Z",
-  "s": {
-   "headline": "E-District Night Removed, Day Version Rotated In",
-   "top_changes": [
-    "E-District (night) removed from all map rotations",
-    "E-District (day) added to map rotations",
-    "Improved E-District (night) planned for end of month",
-    "Future night version to have reduced fog density and adjusted colors"
-   ],
-   "buffs": [],
-   "nerfs": [],
-   "meta_impact": "Switch to E-District day improves visibility and reduces fog issues for clearer fights. Aggressive strategies may become more viable with better sightlines. Meta remains stable until improved night version returns later this split.",
-   "breakdown": [
-    {
-     "name": "E-District",
-     "change": "Night version removed from rotations; day version added instead"
-    }
-   ]
-  }
- },
- "lol": {
-  "title": "League of Legends Patch 26.22 Notes",
-  "url": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-22-notes",
-  "date": "2026-11-03T19:00:00.000Z",
-  "s": {
-   "headline": "LoL 26.22: Corki/Rumble buffs, Locke/Yasuo nerfs, Mel midscope",
-   "top_changes": [
-    "Corki and Rumble R buffs for pro play",
-    "Locke and Yasuo nerfs to early power",
-    "Mel midscope moves power to scaling",
-    "Doran's Bow nerfed for ADC builds",
-    "ARAM augment balance and map returns"
-   ],
-   "buffs": [
-    "Aurelion Sol: Singularity damage and AP ratio increased",
-    "Corki: Missile Barrage and Big One damage up",
-    "Kayle: Q and R cooldowns reduced",
-    "Maokai: Bramble Smash %HP damage increased",
-    "Naafiri: Q heal and W AD increased",
-    "Rumble: Equalizer AP ratio improved",
-    "Shen: Q monster damage modifier up",
-    "Smolder: W explosion damage increased"
-   ],
-   "nerfs": [
-    "Locke: Q stack damage and W duration reduced",
-    "Thresh: Base AD and R damage lowered",
-    "Yasuo: Q total AD ratio reduced",
-    "Doran's Bow: Attack Damage reduced to 7"
-   ],
-   "meta_impact": "Corki and Rumble gain viability outside pro play while Locke and Yasuo see reduced early dominance. Mel's changes shift her toward late-game scaling with reworked W. Doran's Bow nerf encourages more varied ADC itemization on Rift.",
-   "breakdown": [
-    {
-     "name": "Aurelion Sol",
-     "change": "E Singularity total damage and AP ratio increased"
-    },
-    {
-     "name": "Corki",
-     "change": "R Missile Barrage and Big One damage increased"
-    },
-    {
-     "name": "Kayle",
-     "change": "Q cooldown lowered; R cooldown reduced at early ranks"
-    },
-    {
-     "name": "Locke",
-     "change": "Q stack and max damage reduced; W duration to 5s"
-    },
-    {
-     "name": "Maokai",
-     "change": "Q Bramble Smash % max HP damage increased"
-    },
-    {
-     "name": "Mel",
-     "change": "Base stats adjusted; Q/W/E/R reworked for scaling"
-    },
-    {
-     "name": "Naafiri",
-     "change": "Q heal increased; W bonus AD to 22%"
-    },
-    {
-     "name": "Rumble",
-     "change": "R Equalizer AP ratio increased to 40%"
-    },
-    {
-     "name": "Shen",
-     "change": "Q monster damage modifier improved"
-    },
-    {
-     "name": "Smolder",
-     "change": "W ACHOOO explosion damage increased"
-    },
-    {
-     "name": "Thresh",
-     "change": "Base AD to 54; R damage reduced"
-    },
-    {
-     "name": "Viktor",
-     "change": "Health growth to 105; R AP ratio to 60%"
-    },
-    {
-     "name": "Yasuo",
-     "change": "Q Steel Tempest AD ratio to 100%"
-    },
-    {
-     "name": "Doran's Bow",
-     "change": "Attack Damage reduced from 8 to 7"
-    },
-    {
-     "name": "Overlord's Bloodmail",
-     "change": "AD to 40; Retribution AD scaling adjusted"
-    }
-   ]
-  }
- },
- "rivals": {
-  "title": "Marvel Rivals Version 20261105 Patch Notes",
-  "url": "https://store.steampowered.com/news/app/2767030/view/1848664643340420",
-  "date": "2026-11-05T09:07:02.000Z",
-  "s": {
-   "headline": "Patch 20261105: New Bundles & Bug Fixes",
-   "top_changes": [
-    "New Spider-Man Worthy bundles in store",
-    "New The Thing Cosmic Cook Bundle",
-    "Moon Knight team-up damage fix",
-    "Captain America team-up desync fix"
-   ],
-   "buffs": [],
-   "nerfs": [],
-   "meta_impact": "Team-up abilities for Moon Knight and Captain America are now more reliable. Players can expect consistent performance from these synergies without prior bugs interfering.",
-   "breakdown": [
-    {
-     "name": "Moon Knight",
-     "change": "Fixed Talons of Khonshu failing to damage Doctor Strange shields in Blood Moon team-up"
-    },
-    {
-     "name": "Captain America",
-     "change": "Fixed landing desync in Stars Aligned team-up preventing buffs"
-    }
-   ]
-  }
- },
  "fortnite": {
   "title": "Fortnite update: Horrors Worth Facing Together / Fortnite: Override Is Here!",
   "url": "https://www.fortnite.com/news",
@@ -239,6 +35,261 @@
     {
      "name": "Sprites",
      "change": "New collectibles with extractable powers; level up collection; Ranked disabled"
+    }
+   ]
+  }
+ },
+ "apex": {
+  "title": "Apex Legends: Latest Update 11/12/2026",
+  "url": "https://store.steampowered.com/news/app/1172470/view/1849192144184669",
+  "date": "2026-11-12T21:23:07.000Z",
+  "s": {
+   "headline": "Apex Legends Fixes Akimbo Wingman Exploit and Crash",
+   "top_changes": [
+    "Fixed exploit allowing faster Akimbo Wingman fire",
+    "Fixed client crash from incorrect dropship pathing"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "meta_impact": "These fixes restore intended Wingman balance without altering stats. Crash resolution improves overall stability. No shifts to the current meta expected.",
+   "breakdown": [
+    {
+     "name": "Akimbo Wingman",
+     "change": "Fixed exploit for faster firing than intended"
+    },
+    {
+     "name": "Dropship",
+     "change": "Fixed client crash from incorrect pathing"
+    }
+   ]
+  }
+ },
+ "rivals": {
+  "title": "Marvel Rivals Version 20261113 Patch Notes - Season 11 Arrives",
+  "url": "https://store.steampowered.com/news/app/2767030/view/1849192144182227",
+  "date": "2026-11-12T09:44:14.000Z",
+  "s": {
+   "headline": "Season 11 Launches with Nightcrawler and New Battle Pass",
+   "top_changes": [
+    "New Hero: Nightcrawler added with teleport abilities",
+    "S11 Battle Pass: The Incursion with 10 new costumes",
+    "New seasonal event: The Acts of Kurt Wagner",
+    "Controller Aim Assist Target Prediction optimization added",
+    "Experimental CPU performance boost and RTX Spark support"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "meta_impact": "Nightcrawler introduces new mobility and team play options in Season 11. Aim assist and performance updates improve controller and PC gameplay fluidity. Bug fixes stabilize heroes like The Thing and Mister Fantastic without altering balance.",
+   "breakdown": [
+    {
+     "name": "Nightcrawler",
+     "change": "New hero added with teleport mechanics and lore"
+    },
+    {
+     "name": "S11 Battle Pass",
+     "change": "The Incursion pass with 10 new heroic costumes"
+    },
+    {
+     "name": "The Thing",
+     "change": "Fixed Unbreakable Forces Team-Up bonus health disappearing"
+    },
+    {
+     "name": "Mister Fantastic",
+     "change": "Fixed unintended double cast in Clobberin' Research Dept. Team-Up"
+    },
+    {
+     "name": "Doctor Strange",
+     "change": "Fixed portal movement direction bug and sound effect"
+    },
+    {
+     "name": "Blade",
+     "change": "Fixed sprint stuttering in Daywalker Dash"
+    },
+    {
+     "name": "Controller Aim Assist",
+     "change": "New optional Target Prediction for smoother switching"
+    },
+    {
+     "name": "PC Performance",
+     "change": "Experimental Intel compiler with ~10% CPU boost"
+    },
+    {
+     "name": "NVIDIA RTX Spark",
+     "change": "Full support for DLSS and Reflex features"
+    },
+    {
+     "name": "Maps",
+     "change": "Fixed Overtime music and Wakanda positioning errors"
+    },
+    {
+     "name": "Other Fixes",
+     "change": "Resolved multiple costume, emote, and reconnect bugs"
+    }
+   ]
+  }
+ },
+ "valorant": {
+  "title": "VALORANT Patch Notes 13.10",
+  "url": "https://playvalorant.com/en-us/news/game-updates/valorant-patch-notes-13-10",
+  "date": "2026-11-10T14:00:00.000Z",
+  "s": {
+   "headline": "VALORANT 13.10: Replays Bookmarks, Sentinel Tweaks & Gauntlet Glitched",
+   "top_changes": [
+    "Replay bookmarking added for personal use",
+    "Sentinel destroy cooldowns reduced to 45s",
+    "Assist rules updated for damage and healing",
+    "Gauntlet: Glitched adds new abilities, glitches, and balance",
+    "Sage Healing Orb targeting improved"
+   ],
+   "buffs": [
+    "Cypher Spycam: Destroy cooldown reduced 60s to 45s",
+    "Killjoy Turret: Destroy cooldown reduced 60s to 45s",
+    "Vyse Arc Rose: Destroy cooldown reduced 60s to 45s",
+    "Sage Healing Orb: Increased ally targeting accuracy",
+    "Gauntlet Hush Flow: Additional charges on Prone to Flight"
+   ],
+   "nerfs": [
+    "Cypher Spycam: Reclaim cooldown increased 15s to 20s",
+    "Blaze Quickburn: Recharge cooldowns increased at levels 2-3",
+    "Boom Bot Overclocked: Movement speed and duration reduced",
+    "Contingency Redundancy: Added recharge cooldowns and fewer charges"
+   ],
+   "meta_impact": "Sentinels gain faster resets after utility destruction, promoting earlier setups and mid-round recovery. Updated assists better reward trading and healing impact. Gauntlet mode expands with new abilities and glitches, shifting draft priorities toward versatile upgrades.",
+   "breakdown": [
+    {
+     "name": "Cypher",
+     "change": "Spycam destroy cooldown 60s to 45s, reclaim 15s to 20s"
+    },
+    {
+     "name": "Killjoy",
+     "change": "Turret destroy cooldown 60s to 45s"
+    },
+    {
+     "name": "Vyse",
+     "change": "Arc Rose destroy cooldown 60s to 45s"
+    },
+    {
+     "name": "Sage",
+     "change": "Healing Orb ally targeting accuracy increased, crosshair visible"
+    },
+    {
+     "name": "Damage Assists",
+     "change": "Now awarded for >10 damage within 3s of kill or 50+ total"
+    },
+    {
+     "name": "Healing Assists",
+     "change": "Only if healed player kills within 10s after heal ends"
+    },
+    {
+     "name": "Gauntlet Hush",
+     "change": "New abilities: Flow, Displacement, Suspension ultimate"
+    },
+    {
+     "name": "Gauntlet Glitches",
+     "change": "Cypher Spycam and Skye Trailblazer get gun variants"
+    },
+    {
+     "name": "Blaze Quickburn",
+     "change": "Wall length reduction removed, recharge cooldowns increased"
+    },
+    {
+     "name": "Boom Bot Overclocked",
+     "change": "Level 2-3 speed and duration reduced"
+    }
+   ]
+  }
+ },
+ "lol": {
+  "title": "League of Legends Patch 26.22 Notes",
+  "url": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-22-notes",
+  "date": "2026-11-03T19:00:00.000Z",
+  "s": {
+   "headline": "26.22: Corki/Rumble buffs, Locke/Yasuo nerfs, TFT standalone client",
+   "top_changes": [
+    "TFT moves to standalone client Nov 4",
+    "Corki & Rumble pro-play buffs",
+    "Locke & Yasuo nerfs for banrate",
+    "Mel midscope with W rework",
+    "Doran’s Bow AD reduced for ADCs"
+   ],
+   "buffs": [
+    "Corki: R damage and ratios increased",
+    "Rumble: R AP ratios buffed",
+    "Kayle: Q and R cooldowns lowered",
+    "Maokai: Q %HP damage up",
+    "Naafiri: Q heal and W AD buffed",
+    "Shen: Q monster damage modifier up",
+    "Smolder: W explosion damage increased",
+    "Viktor: Health growth and R AP ratio up"
+   ],
+   "nerfs": [
+    "Locke: Q stack damage and W duration down",
+    "Yasuo: Q total AD ratio reduced",
+    "Thresh: Base AD and R damage lowered",
+    "Mel: Early game power shifted to scaling",
+    "Doran’s Bow: Attack damage reduced to 7"
+   ],
+   "meta_impact": "Corki and Rumble gain viability outside pro play while Locke and Yasuo see reduced dominance. Mel's midscope encourages scaling builds over early aggression. Doran’s Bow nerf pushes ADCs toward Blade and diversifies itemization.",
+   "breakdown": [
+    {
+     "name": "Corki",
+     "change": "R Missile Barrage damage and ratios increased"
+    },
+    {
+     "name": "Rumble",
+     "change": "R The Equalizer AP ratios buffed"
+    },
+    {
+     "name": "Locke",
+     "change": "Q stack damage and W duration reduced"
+    },
+    {
+     "name": "Yasuo",
+     "change": "Q Steel Tempest total AD ratio lowered"
+    },
+    {
+     "name": "Mel",
+     "change": "Midscope: early power to scaling, W reworked to nova"
+    },
+    {
+     "name": "Doran’s Bow",
+     "change": "Attack damage reduced from 8 to 7"
+    },
+    {
+     "name": "Aurelion Sol",
+     "change": "E Singularity damage and AP ratio improved"
+    },
+    {
+     "name": "Kayle",
+     "change": "Q and R cooldowns reduced for early game"
+    },
+    {
+     "name": "Maokai",
+     "change": "Q Bramble Smash %HP damage increased"
+    },
+    {
+     "name": "Naafiri",
+     "change": "Q heal and W bonus AD buffed for mid"
+    },
+    {
+     "name": "Shen",
+     "change": "Q monster damage modifier improved"
+    },
+    {
+     "name": "Smolder",
+     "change": "W ACHOOO explosion damage up"
+    },
+    {
+     "name": "Thresh",
+     "change": "Base AD and R The Box damage nerfed"
+    },
+    {
+     "name": "Viktor",
+     "change": "Health growth and R AP ratio increased"
+    },
+    {
+     "name": "TFT",
+     "change": "Standalone client launching Nov 4"
     }
    ]
   }
