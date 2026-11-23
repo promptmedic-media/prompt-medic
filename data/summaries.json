@@ -39,257 +39,261 @@
    ]
   }
  },
- "apex": {
-  "title": "Apex Legends: Latest Update 11/12/2026",
-  "url": "https://store.steampowered.com/news/app/1172470/view/1849192144184669",
-  "date": "2026-11-12T21:23:07.000Z",
-  "s": {
-   "headline": "Apex Legends Fixes Akimbo Wingman Exploit and Crash",
-   "top_changes": [
-    "Fixed exploit allowing faster Akimbo Wingman fire",
-    "Fixed client crash from incorrect dropship pathing"
-   ],
-   "buffs": [],
-   "nerfs": [],
-   "meta_impact": "These fixes restore intended Wingman balance without altering stats. Crash resolution improves overall stability. No shifts to the current meta expected.",
-   "breakdown": [
-    {
-     "name": "Akimbo Wingman",
-     "change": "Fixed exploit for faster firing than intended"
-    },
-    {
-     "name": "Dropship",
-     "change": "Fixed client crash from incorrect pathing"
-    }
-   ]
-  }
- },
- "rivals": {
-  "title": "Marvel Rivals Version 20261113 Patch Notes - Season 11 Arrives",
-  "url": "https://store.steampowered.com/news/app/2767030/view/1849192144182227",
-  "date": "2026-11-12T09:44:14.000Z",
-  "s": {
-   "headline": "Season 11 Launches with Nightcrawler and New Battle Pass",
-   "top_changes": [
-    "New Hero: Nightcrawler added with teleport abilities",
-    "S11 Battle Pass: The Incursion with 10 new costumes",
-    "New seasonal event: The Acts of Kurt Wagner",
-    "Controller Aim Assist Target Prediction optimization added",
-    "Experimental CPU performance boost and RTX Spark support"
-   ],
-   "buffs": [],
-   "nerfs": [],
-   "meta_impact": "Nightcrawler introduces new mobility and team play options in Season 11. Aim assist and performance updates improve controller and PC gameplay fluidity. Bug fixes stabilize heroes like The Thing and Mister Fantastic without altering balance.",
-   "breakdown": [
-    {
-     "name": "Nightcrawler",
-     "change": "New hero added with teleport mechanics and lore"
-    },
-    {
-     "name": "S11 Battle Pass",
-     "change": "The Incursion pass with 10 new heroic costumes"
-    },
-    {
-     "name": "The Thing",
-     "change": "Fixed Unbreakable Forces Team-Up bonus health disappearing"
-    },
-    {
-     "name": "Mister Fantastic",
-     "change": "Fixed unintended double cast in Clobberin' Research Dept. Team-Up"
-    },
-    {
-     "name": "Doctor Strange",
-     "change": "Fixed portal movement direction bug and sound effect"
-    },
-    {
-     "name": "Blade",
-     "change": "Fixed sprint stuttering in Daywalker Dash"
-    },
-    {
-     "name": "Controller Aim Assist",
-     "change": "New optional Target Prediction for smoother switching"
-    },
-    {
-     "name": "PC Performance",
-     "change": "Experimental Intel compiler with ~10% CPU boost"
-    },
-    {
-     "name": "NVIDIA RTX Spark",
-     "change": "Full support for DLSS and Reflex features"
-    },
-    {
-     "name": "Maps",
-     "change": "Fixed Overtime music and Wakanda positioning errors"
-    },
-    {
-     "name": "Other Fixes",
-     "change": "Resolved multiple costume, emote, and reconnect bugs"
-    }
-   ]
-  }
- },
  "valorant": {
   "title": "VALORANT Patch Notes 13.10",
   "url": "https://playvalorant.com/en-us/news/game-updates/valorant-patch-notes-13-10",
   "date": "2026-11-10T14:00:00.000Z",
   "s": {
-   "headline": "VALORANT 13.10: Replays Bookmarks, Sentinel Tweaks & Gauntlet Glitched",
+   "headline": "Patch 13.10: Replay bookmarks, Sentinel cooldowns, Gauntlet updates",
    "top_changes": [
-    "Replay bookmarking added for personal use",
-    "Sentinel destroy cooldowns reduced to 45s",
-    "Assist rules updated for damage and healing",
-    "Gauntlet: Glitched adds new abilities, glitches, and balance",
-    "Sage Healing Orb targeting improved"
+    "Added personal replay bookmarking feature",
+    "Reduced Cypher/Killjoy/Vyse destroy cooldowns to 45s",
+    "Updated damage and healing assist rules",
+    "Gauntlet: Glitched adds new abilities, glitches, and balance tweaks",
+    "Multiple agent and map bug fixes"
    ],
    "buffs": [
-    "Cypher Spycam: Destroy cooldown reduced 60s to 45s",
-    "Killjoy Turret: Destroy cooldown reduced 60s to 45s",
-    "Vyse Arc Rose: Destroy cooldown reduced 60s to 45s",
-    "Sage Healing Orb: Increased ally targeting accuracy",
-    "Gauntlet Hush Flow: Additional charges on Prone to Flight"
+    "Cypher Spycam: destroy cooldown 60s to 45s",
+    "Killjoy Turret: destroy cooldown 60s to 45s",
+    "Vyse Arc Rose: destroy cooldown 60s to 45s",
+    "Sage Healing Orb: improved ally targeting accuracy",
+    "Gauntlet Hush Flow: additional charges",
+    "Gauntlet Prowler Chonky Cat: health increased"
    ],
    "nerfs": [
-    "Cypher Spycam: Reclaim cooldown increased 15s to 20s",
-    "Blaze Quickburn: Recharge cooldowns increased at levels 2-3",
-    "Boom Bot Overclocked: Movement speed and duration reduced",
-    "Contingency Redundancy: Added recharge cooldowns and fewer charges"
+    "Cypher Spycam: reclaim cooldown 15s to 20s",
+    "Gauntlet Blaze Quickburn: recharge cooldowns increased",
+    "Gauntlet Boom Bot Overclocked: speed and duration reduced",
+    "Gauntlet Contingency Redundancy: added recharge, fewer charges",
+    "Gauntlet Headhunter: added recharge, less ammo"
    ],
-   "meta_impact": "Sentinels gain faster resets after utility destruction, promoting earlier setups and mid-round recovery. Updated assists better reward trading and healing impact. Gauntlet mode expands with new abilities and glitches, shifting draft priorities toward versatile upgrades.",
+   "meta_impact": "Sentinel cooldown reductions encourage more utility placement and resets while rewarding destruction. Assist changes promote trading and reward impactful healing. Gauntlet balance aims to diversify viable upgrades in the mode.",
    "breakdown": [
     {
-     "name": "Cypher",
-     "change": "Spycam destroy cooldown 60s to 45s, reclaim 15s to 20s"
+     "name": "Replay Bookmarking",
+     "change": "Personal bookmarks for key moments in replays"
     },
     {
-     "name": "Killjoy",
-     "change": "Turret destroy cooldown 60s to 45s"
+     "name": "Cypher Spycam",
+     "change": "Destroy cooldown reduced to 45s, reclaim to 20s"
     },
     {
-     "name": "Vyse",
-     "change": "Arc Rose destroy cooldown 60s to 45s"
+     "name": "Killjoy Turret",
+     "change": "Destroy cooldown reduced to 45s"
     },
     {
-     "name": "Sage",
-     "change": "Healing Orb ally targeting accuracy increased, crosshair visible"
+     "name": "Vyse Arc Rose",
+     "change": "Destroy cooldown reduced to 45s"
+    },
+    {
+     "name": "Sage Healing Orb",
+     "change": "Better targeting accuracy and visible crosshair"
     },
     {
      "name": "Damage Assists",
-     "change": "Now awarded for >10 damage within 3s of kill or 50+ total"
+     "change": "Now awarded for >10 damage in 3s window"
     },
     {
      "name": "Healing Assists",
-     "change": "Only if healed player kills within 10s after heal ends"
+     "change": "Only if healed player kills within 10s after heal"
     },
     {
-     "name": "Gauntlet Hush",
-     "change": "New abilities: Flow, Displacement, Suspension ultimate"
+     "name": "Gauntlet: Glitched",
+     "change": "Queue up to 5 players, new abilities and glitches"
     },
     {
-     "name": "Gauntlet Glitches",
-     "change": "Cypher Spycam and Skye Trailblazer get gun variants"
+     "name": "Gauntlet Hush Suspension",
+     "change": "New ultimate: steerable levitate projectile"
     },
     {
-     "name": "Blaze Quickburn",
-     "change": "Wall length reduction removed, recharge cooldowns increased"
-    },
-    {
-     "name": "Boom Bot Overclocked",
-     "change": "Level 2-3 speed and duration reduced"
+     "name": "Gauntlet Blaze Quickburn",
+     "change": "Recharge cooldowns increased at levels 2-3"
     }
    ]
   }
  },
  "lol": {
-  "title": "League of Legends Patch 26.22 Notes",
-  "url": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-22-notes",
-  "date": "2026-11-03T19:00:00.000Z",
+  "title": "League of Legends Patch 26.23 Notes",
+  "url": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-23-notes",
+  "date": "2026-11-17T19:00:00.000Z",
   "s": {
-   "headline": "26.22: Corki/Rumble buffs, Locke/Yasuo nerfs, TFT standalone client",
+   "headline": "Patch 26.23: Pro-prison buffs, ARAM Mayhem & Arena tweaks",
    "top_changes": [
-    "TFT moves to standalone client Nov 4",
-    "Corki & Rumble pro-play buffs",
-    "Locke & Yasuo nerfs for banrate",
-    "Mel midscope with W rework",
-    "Doran’s Bow AD reduced for ADCs"
+    "Buffs to Annie, Azir, Bard, Ezreal, Galio, Gnar, K'Sante, Mel, Vi",
+    "Nerfs to LeBlanc, Master Yi, Syndra Q ratios and cooldowns",
+    "Voltaic Cyclosword trigger damage reduced",
+    "ARAM Mayhem: New headliners, tank augments, turret plating added",
+    "Arena balance changes to multiple champions and items"
    ],
    "buffs": [
-    "Corki: R damage and ratios increased",
-    "Rumble: R AP ratios buffed",
-    "Kayle: Q and R cooldowns lowered",
-    "Maokai: Q %HP damage up",
-    "Naafiri: Q heal and W AD buffed",
-    "Shen: Q monster damage modifier up",
-    "Smolder: W explosion damage increased",
-    "Viktor: Health growth and R AP ratio up"
+    "Annie: Tibbers health, aura damage and AD increased with new HP ratio",
+    "Azir: Attack range up to 550, W on-hit ratio to 67%",
+    "Bard: Q damage and AP ratio increased",
+    "Ezreal: W and R bonus AD/AP ratios buffed",
+    "Galio: W shield % max HP increased",
+    "Gnar: Q AD ratios increased for mini and mega forms",
+    "K'Sante: W mana cost flat, base damage up, charge scaling adjusted",
+    "Mel: Q damage and ratios up, W shield and retaliation buffed"
    ],
    "nerfs": [
-    "Locke: Q stack damage and W duration down",
-    "Yasuo: Q total AD ratio reduced",
-    "Thresh: Base AD and R damage lowered",
-    "Mel: Early game power shifted to scaling",
-    "Doran’s Bow: Attack damage reduced to 7"
+    "LeBlanc: Q AP ratio reduced to 35%",
+    "Master Yi: Q AD ratio and max single target damage reduced",
+    "Syndra: E mana cost to 60, cooldown increased early",
+    "Voltaic Cyclosword: Firmament bonus damage lowered to 8%/6%"
    ],
-   "meta_impact": "Corki and Rumble gain viability outside pro play while Locke and Yasuo see reduced dominance. Mel's midscope encourages scaling builds over early aggression. Doran’s Bow nerf pushes ADCs toward Blade and diversifies itemization.",
+   "meta_impact": "Buffs target pro staples like Azir, Ezreal and Gnar to improve solo queue viability while curbing LeBlanc and Master Yi dominance. ARAM Mayhem gains tank tools and turret defenses to slow games. Arena shifts favor alternative builds like AP Bel'Veth and Tristana.",
    "breakdown": [
     {
-     "name": "Corki",
-     "change": "R Missile Barrage damage and ratios increased"
+     "name": "Annie",
+     "change": "Tibbers gains HP scaling and aura/AD buffs"
     },
     {
-     "name": "Rumble",
-     "change": "R The Equalizer AP ratios buffed"
+     "name": "Azir",
+     "change": "Base attack range +25, W on-hit ratio to 67%"
     },
     {
-     "name": "Locke",
-     "change": "Q stack damage and W duration reduced"
+     "name": "Bard",
+     "change": "Q base damage and AP ratio increased"
     },
     {
-     "name": "Yasuo",
-     "change": "Q Steel Tempest total AD ratio lowered"
+     "name": "Ezreal",
+     "change": "W and R AD/AP ratios buffed"
     },
     {
-     "name": "Mel",
-     "change": "Midscope: early power to scaling, W reworked to nova"
+     "name": "Galio",
+     "change": "W shield % max HP increased across ranks"
     },
     {
-     "name": "Doran’s Bow",
-     "change": "Attack damage reduced from 8 to 7"
+     "name": "Gnar",
+     "change": "Q AD ratios up for both forms"
     },
     {
-     "name": "Aurelion Sol",
-     "change": "E Singularity damage and AP ratio improved"
+     "name": "K'Sante",
+     "change": "W mana flat, damage up, charge scaling tweaked"
     },
     {
-     "name": "Kayle",
-     "change": "Q and R cooldowns reduced for early game"
+     "name": "LeBlanc",
+     "change": "Q AP ratio down to 35%"
     },
     {
-     "name": "Maokai",
-     "change": "Q Bramble Smash %HP damage increased"
+     "name": "Master Yi",
+     "change": "Q AD ratios reduced, crit impact lowered"
     },
     {
-     "name": "Naafiri",
-     "change": "Q heal and W bonus AD buffed for mid"
+     "name": "Syndra",
+     "change": "E mana to 60, early cooldown increased"
     },
     {
-     "name": "Shen",
-     "change": "Q monster damage modifier improved"
+     "name": "Vi",
+     "change": "E damage increased"
     },
     {
-     "name": "Smolder",
-     "change": "W ACHOOO explosion damage up"
+     "name": "Voltaic Cyclosword",
+     "change": "Trigger damage reduced"
     },
     {
-     "name": "Thresh",
-     "change": "Base AD and R The Box damage nerfed"
+     "name": "ARAM Mayhem",
+     "change": "New headliners, tank augments, turret plating"
     },
     {
-     "name": "Viktor",
-     "change": "Health growth and R AP ratio increased"
+     "name": "Arena",
+     "change": "Multiple champ and item adjustments"
+    }
+   ]
+  }
+ },
+ "rivals": {
+  "title": "Marvel Rivals Version 20261119 Patch Notes",
+  "url": "https://store.steampowered.com/news/app/2767030/view/1849827110427665",
+  "date": "2026-11-19T09:20:25.000Z",
+  "s": {
+   "headline": "Marvel Rivals Patch: Anniversary Events & Bug Fixes",
+   "top_changes": [
+    "New cosmetics for White Fox, Jeff, Rocket Raccoon",
+    "Anniversary Check-In Event with up to 1,900 free Units",
+    "Pop & Win returns with optional Emoji mechanic",
+    "Nightcrawler auto-accept teleport setting added",
+    "Multiple hero and UI bug fixes deployed"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "meta_impact": "No hero balance changes means competitive meta stays the same. Focus shifts to cosmetics and events. Players gain free rewards without gameplay shifts.",
+   "breakdown": [
+    {
+     "name": "White Fox",
+     "change": "New Jade Majesty chroma and Ultimate VFX added"
     },
     {
-     "name": "TFT",
-     "change": "Standalone client launching Nov 4"
+     "name": "Jeff the Land Shark",
+     "change": "New Noob Nibbler chroma and Ultimate VFX added"
+    },
+    {
+     "name": "Rocket Raccoon",
+     "change": "New Retro Rocketeer chroma and Ultimate VFX added"
+    },
+    {
+     "name": "Nightcrawler",
+     "change": "Added auto-accept setting for Tandem Teleport invites"
+    },
+    {
+     "name": "Black Cat",
+     "change": "Fixed Turn of Fortune failing to steal Fortune"
+    },
+    {
+     "name": "Mantis",
+     "change": "Fixed Life Energy Blast granting orbs on barriers/summons"
+    },
+    {
+     "name": "Mantis",
+     "change": "Fixed missing Ultimate VFX sound on Chronal Harmony"
+    },
+    {
+     "name": "Battle Pass",
+     "change": "Fixed missing settlement screen sound effect"
+    },
+    {
+     "name": "Times Square",
+     "change": "Fixed Competitive Rank Score not updating in real time"
+    },
+    {
+     "name": "Psylocke",
+     "change": "Fixed costume clipping issue under specific conditions"
+    },
+    {
+     "name": "The Thing",
+     "change": "Fixed abnormal material color on limbs for some costumes"
+    },
+    {
+     "name": "Emma Frost",
+     "change": "Fixed Diamond Form sleeve visuals and emote clipping"
+    }
+   ]
+  }
+ },
+ "apex": {
+  "title": "Apex Legends: Latest Update 11/16/2026",
+  "url": "https://store.steampowered.com/news/app/1172470/view/1849827110426441",
+  "date": "2026-11-18T23:57:13.000Z",
+  "s": {
+   "headline": "Apex Legends Fixes Upgrade Tree Issues for Alter, Seer, Wattson",
+   "top_changes": [
+    "Resolved misplaced upgrades for Alter, Seer, and Wattson"
+   ],
+   "buffs": [],
+   "nerfs": [],
+   "meta_impact": "This bug fix resolves an issue with Alter, Seer, and Wattson upgrades. Players will now see correct placements in upgrade trees.",
+   "breakdown": [
+    {
+     "name": "Alter",
+     "change": "Upgrades no longer misplaced in upgrade tree"
+    },
+    {
+     "name": "Seer",
+     "change": "Upgrades no longer misplaced in upgrade tree"
+    },
+    {
+     "name": "Wattson",
+     "change": "Upgrades no longer misplaced in upgrade tree"
     }
    ]
   }
